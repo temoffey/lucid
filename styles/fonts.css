@@ -1,0 +1,660 @@
+@charset "UTF-8";
+
+/*
+	lucid CSS Framework
+	Version: 0.2.4
+	Date: 2018-10-16
+	Author: temoffey <temofffey@gmail.com>
+	File: fonts.css
+*/
+
+/* fontello */
+
+/*
+	font created on the site http://fontello.com/
+	codes selected on the site https://unicode-table.com/ru/
+*/
+
+@font-face {
+	font-family: fontello;
+	src: url('../fonts/fontello/fontello.woff') format('woff');
+}
+
+.prev, .next, .caret,
+.map, .phone, .search,
+.ok, .email, .mail, .menu, .cancel, .rub,
+.arrow-up, .arrow-left, .arrow-down, .arrow-right,
+.radio, .checkbox { font-family: fontello; }
+
+.prev:before { content: '\3c' } /* '<' */
+.next:before { content: '\3e' } /* '>' */
+.caret:before { content: '\2228' } /* '∨' */
+.caret.active:before { content: '\2227' } /* '∧' */
+
+.map:before { content: '\1f4cd' } /* '📍' */
+.phone:before { content: '\1f4de' } /* '📞' */
+.search:before { content: '\1f50d' } /* '🔍' */
+
+.ok:before { content: '\2714' } /* '✔' */
+.email:before { content: '\40' } /* '@' */
+.mail:before { content: '\2709' } /* '✉' */
+.menu:before { content: '\2261' } /* '≡' */
+.cancel:before { content: '\2716' } /* '✖' */
+.rub:before { content: '\20bd'; font-size: 85%; } /* '₽' */
+
+.arrow-up:before { content: '\2191' } /* '↑' */
+.arrow-left:before { content: '\2190' } /* '←' */
+.arrow-down:before { content: '\2193' } /* '↓' */
+.arrow-right:before { content: '\2192' } /* '→' */
+
+.radio:before { content: '\26aa' } /* '⚪' */
+.radio.active:before { content: '\26ab' } /* '⚫' */
+.radio.checked:before { content: '\1f518' } /* '🔘' */
+:checked + .radio:before { content: '\1f518' } /* '🔘' */
+:checked + * .radio:before { content: '\1f518' } /* '🔘' */
+
+.checkbox:before { content: '\2610' } /* '☐' */
+.checkbox.checked:before { content: '\2611' } /* '☑' */
+:checked + .checkbox:before { content: '\2611' } /* '☑' */
+:checked + * .checkbox:before { content: '\2611' } /* '☑' */
+
+
+/* Futura PT */
+
+@font-face {
+	font-weight: 300;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-LightObl.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Book.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-BookObl.woff') format('woff');
+}
+
+@font-face {
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-Book.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-BookObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-MediumObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-MediumObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Demi.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 600;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-DemiObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-BoldObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-style: italic;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-BoldObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-ExtraBoldObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: condensed;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPTCond-ExtraBoldObl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: 'Futura PT';
+	src: url('../fonts/futura-pt/FuturaPT-HeavyObl.woff') format('woff');
+}
+
+
+/* 'Helvetica' */
+
+@font-face {
+	font-weight: 100;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-UltraLight.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 200;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-UltraLightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-MediumItaicl.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-HeavyItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Helvetica;
+	src: url('../fonts/helvetica/HelveticaNeueCyr-BlackItalic.woff') format('woff');
+}
+
+
+/* Montserrat */
+
+@font-face {
+	font-weight: 100;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 100;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Light.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-SemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-ExtraBoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-Black.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-style: italic;
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Montserrat-BlackItalic.woff') format('woff');
+}
+
+
+/* PT Serif */
+
+@font-face {
+	font-family: 'PT Serif';
+	src: url('../fonts/pt-serif/PTSerif-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: 'PT Serif';
+	src: url('../fonts/pt-serif/PTSerif-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: 'PT Serif';
+	src: url('../fonts/pt-serif/PTSerif-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'PT Serif';
+	src: url('../fonts/pt-serif/PTSerif-BoldItalic.woff') format('woff');
+}
+
+
+/* Roboto */
+
+@font-face {
+	font-weight: 100;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-family: Roboto;
+	src: url('../fonts/roboto/RobotoCondensed-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Roboto;
+	src: url('../fonts/roboto/Roboto-BlackItalic.woff') format('woff');
+}
+
+
+/* Whitney */
+
+@font-face {
+	font-weight: 200;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyLight.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 200;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyLightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBook.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBookItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyMedium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyMediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneySemibold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 600;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneySemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBlack.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: Whitney;
+	src: url('../fonts/whitney/WhitneyBlackItalic.woff') format('woff');
+}
