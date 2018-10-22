@@ -3,7 +3,7 @@
 /*
 	lucid CSS Framework
 	Version: 0.2.5
-	Date: 2018-10-16
+	Date: 2018-10-22
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1394,6 +1394,10 @@ input[type=submit] {
 .column-border-3-dashed-black { column-rule: 3px dashed black; }
 .column-border-3-dotted-black { column-rule: 3px dotted black; }
 
+.break-after-column { break-after: column }
+.break-before-column { break-before: column }
+
+
 
 /* style */
 
@@ -1465,7 +1469,10 @@ input[type=submit] {
 .left { text-align: left }
 .right { text-align: right }
 .center { text-align: center }
-.justify { text-align: justify }
+.justify {
+	text-align: justify;
+	text-align-last: justify;
+}
 
 .float-none { float: none }
 .float-left { float: left }
@@ -3455,6 +3462,9 @@ input[type=submit] {
 	.tab-column-border-3-dashed-black { column-rule: 3px dashed black; }
 	.tab-column-border-3-dotted-black { column-rule: 3px dotted black; }
 
+	.tab-break-after-column { break-after: column }
+	.tab-break-before-column { break-before: column }
+
 
 	/* style */
 
@@ -3526,7 +3536,10 @@ input[type=submit] {
 	.tab-left { text-align: left }
 	.tab-right { text-align: right }
 	.tab-center { text-align: center }
-	.tab-justify { text-align: justify }
+	.tab-justify {
+		text-align: justify;
+		text-align-last: justify;
+	}
 
 	.tab-float-none { float: none }
 	.tab-float-left { float: left }
@@ -5519,6 +5532,9 @@ input[type=submit] {
 	.mob-column-border-3-dashed-black { column-rule: 3px dashed black; }
 	.mob-column-border-3-dotted-black { column-rule: 3px dotted black; }
 
+	.mob-break-after-column { break-after: column }
+	.mob-break-before-column { break-before: column }
+
 
 	/* style */
 
@@ -5590,7 +5606,10 @@ input[type=submit] {
 	.mob-left { text-align: left }
 	.mob-right { text-align: right }
 	.mob-center { text-align: center }
-	.mob-justify { text-align: justify }
+	.mob-justify {
+		text-align: justify;
+		text-align-last: justify;
+	}
 
 	.mob-float-none { float: none }
 	.mob-float-left { float: left }
