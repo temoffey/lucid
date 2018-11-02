@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.5
-	Date: 2018-10-22
+	Version: 0.2.6
+	Date: 2018-11-02
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -51,25 +51,195 @@ input[type=submit] {
 .absolute { position: absolute }
 .relative { position: relative }
 
+.top--100 { top: -100px }
+.top--50 { top: -50px }
+.top--40 { top: -40px }
+.top--30 { top: -30px }
+.top--25 { top: -25px }
+.top--20 { top: -20px }
+.top--15 { top: -15px }
+.top--10 { top: -10px }
+.top--5 { top: -5px }
 .top-0 { top: 0 }
+.top-5 { top: 5px }
+.top-10 { top: 10px }
+.top-15 { top: 15px }
+.top-20 { top: 20px }
+.top-25 { top: 25px }
+.top-30 { top: 30px }
+.top-40 { top: 40px }
+.top-50 { top: 50px }
+.top-100 { top: 100px }
+
+.top-5\% { top: 5% }
+.top-10\% { top: 10% }
+.top-15\% { top: 15% }
+.top-20\% { top: 20% }
+.top-25\% { top: 25% }
+.top-30\% { top: 30% }
+.top-35\% { top: 35% }
+.top-40\% { top: 40% }
+.top-45\% { top: 45% }
 .top-50\% { top: 50% }
+.top-55\% { top: 55% }
+.top-60\% { top: 60% }
+.top-65\% { top: 65% }
+.top-70\% { top: 70% }
+.top-75\% { top: 75% }
+.top-80\% { top: 80% }
+.top-85\% { top: 85% }
+.top-90\% { top: 90% }
+.top-95\% { top: 95% }
 .top-100\% { top: 100% }
+
 .top-auto { top: auto }
 
+.left--100 { left: -100px }
+.left--50 { left: -50px }
+.left--40 { left: -40px }
+.left--30 { left: -30px }
+.left--25 { left: -25px }
+.left--20 { left: -20px }
+.left--15 { left: -15px }
+.left--10 { left: -10px }
+.left--5 { left: -5px }
 .left-0 { left: 0 }
+.left-5 { left: 5px }
+.left-10 { left: 10px }
+.left-15 { left: 15px }
+.left-20 { left: 20px }
+.left-25 { left: 25px }
+.left-30 { left: 30px }
+.left-40 { left: 40px }
+.left-50 { left: 50px }
+.left-100 { left: 100px }
+
+.left-5\% { left: 5% }
+.left-10\% { left: 10% }
+.left-15\% { left: 15% }
+.left-20\% { left: 20% }
+.left-25\% { left: 25% }
+.left-30\% { left: 30% }
+.left-35\% { left: 35% }
+.left-40\% { left: 40% }
+.left-45\% { left: 45% }
 .left-50\% { left: 50% }
+.left-55\% { left: 55% }
+.left-60\% { left: 60% }
+.left-65\% { left: 65% }
+.left-70\% { left: 70% }
+.left-75\% { left: 75% }
+.left-80\% { left: 80% }
+.left-85\% { left: 85% }
+.left-90\% { left: 90% }
+.left-95\% { left: 95% }
 .left-100\% { left: 100% }
+
 .left-auto { left: auto }
 
+.right--100 { right: -100px }
+.right--50 { right: -50px }
+.right--40 { right: -40px }
+.right--30 { right: -30px }
+.right--25 { right: -25px }
+.right--20 { right: -20px }
+.right--15 { right: -15px }
+.right--10 { right: -10px }
+.right--5 { right: -5px }
 .right-0 { right: 0 }
+.right-5 { right: 5px }
+.right-10 { right: 10px }
+.right-15 { right: 15px }
+.right-20 { right: 20px }
+.right-25 { right: 25px }
+.right-30 { right: 30px }
+.right-40 { right: 40px }
+.right-50 { right: 50px }
+.right-100 { right: 100px }
+
+.right-5\% { right: 5% }
+.right-10\% { right: 10% }
+.right-15\% { right: 15% }
+.right-20\% { right: 20% }
+.right-25\% { right: 25% }
+.right-30\% { right: 30% }
+.right-35\% { right: 35% }
+.right-40\% { right: 40% }
+.right-45\% { right: 45% }
 .right-50\% { right: 50% }
+.right-55\% { right: 55% }
+.right-60\% { right: 60% }
+.right-65\% { right: 65% }
+.right-70\% { right: 70% }
+.right-75\% { right: 75% }
+.right-80\% { right: 80% }
+.right-85\% { right: 85% }
+.right-90\% { right: 90% }
+.right-95\% { right: 95% }
 .right-100\% { right: 100% }
+
 .right-auto { right: auto }
 
+.bottom--100 { bottom: -100px }
+.bottom--50 { bottom: -50px }
+.bottom--40 { bottom: -40px }
+.bottom--30 { bottom: -30px }
+.bottom--25 { bottom: -25px }
+.bottom--20 { bottom: -20px }
+.bottom--15 { bottom: -15px }
+.bottom--10 { bottom: -10px }
+.bottom--5 { bottom: -5px }
 .bottom-0 { bottom: 0 }
+.bottom-5 { bottom: 5px }
+.bottom-10 { bottom: 10px }
+.bottom-15 { bottom: 15px }
+.bottom-20 { bottom: 20px }
+.bottom-25 { bottom: 25px }
+.bottom-30 { bottom: 30px }
+.bottom-40 { bottom: 40px }
+.bottom-50 { bottom: 50px }
+.bottom-100 { bottom: 100px }
+
+.bottom-5\% { bottom: 5% }
+.bottom-10\% { bottom: 10% }
+.bottom-15\% { bottom: 15% }
+.bottom-20\% { bottom: 20% }
+.bottom-25\% { bottom: 25% }
+.bottom-30\% { bottom: 30% }
+.bottom-35\% { bottom: 35% }
+.bottom-40\% { bottom: 40% }
+.bottom-45\% { bottom: 45% }
 .bottom-50\% { bottom: 50% }
+.bottom-55\% { bottom: 55% }
+.bottom-60\% { bottom: 60% }
+.bottom-65\% { bottom: 65% }
+.bottom-70\% { bottom: 70% }
+.bottom-75\% { bottom: 75% }
+.bottom-80\% { bottom: 80% }
+.bottom-85\% { bottom: 85% }
+.bottom-90\% { bottom: 90% }
+.bottom-95\% { bottom: 95% }
 .bottom-100\% { bottom: 100% }
+
 .bottom-auto { bottom: auto }
+
+.z-index-0 { z-index: 0 }
+.z-index-1 { z-index: 1 }
+.z-index-2 { z-index: 2 }
+.z-index-3 { z-index: 3 }
+.z-index-4 { z-index: 4 }
+.z-index-5 { z-index: 5 }
+.z-index-6 { z-index: 6 }
+.z-index-7 { z-index: 7 }
+.z-index-8 { z-index: 8 }
+.z-index-9 { z-index: 9 }
+.z-index-10 { z-index: 10 }
+.z-index-50 { z-index: 50 }
+.z-index-100 { z-index: 100 }
+.z-index-500 { z-index: 500 }
+.z-index-1000 { z-index: 1000 }
+.z-index-5000 { z-index: 5000 }
+
 
 
 /* margin */
@@ -1210,6 +1380,11 @@ input[type=submit] {
 	align-content: space-between;
 	justify-content: space-between;
 }
+.flex-around:before,
+.flex-around:after,
+.flex-between:before,
+.flex-between:after { display: none }
+
 
 .flex-left {
 	justify-content: flex-start;
@@ -1469,10 +1644,7 @@ input[type=submit] {
 .left { text-align: left }
 .right { text-align: right }
 .center { text-align: center }
-.justify {
-	text-align: justify;
-	text-align-last: justify;
-}
+.justify { text-align: justify }
 
 .float-none { float: none }
 .float-left { float: left }
@@ -1778,6 +1950,7 @@ input[type=submit] {
 
 .bg-cover { background-size: cover }
 .bg-contain { background-size: contain }
+.bg-fixed { background-attachment: fixed }
 
 .bg-size-50\% { background-size: 50% }
 .bg-size-50\%-100\% { background-size: 50% 100% }
@@ -2119,25 +2292,194 @@ input[type=submit] {
 	.tab-absolute { position: absolute }
 	.tab-relative { position: relative }
 
+	.tab-top--100 { top: -100px }
+	.tab-top--50 { top: -50px }
+	.tab-top--40 { top: -40px }
+	.tab-top--30 { top: -30px }
+	.tab-top--25 { top: -25px }
+	.tab-top--20 { top: -20px }
+	.tab-top--15 { top: -15px }
+	.tab-top--10 { top: -10px }
+	.tab-top--5 { top: -5px }
 	.tab-top-0 { top: 0 }
+	.tab-top-5 { top: 5px }
+	.tab-top-10 { top: 10px }
+	.tab-top-15 { top: 15px }
+	.tab-top-20 { top: 20px }
+	.tab-top-25 { top: 25px }
+	.tab-top-30 { top: 30px }
+	.tab-top-40 { top: 40px }
+	.tab-top-50 { top: 50px }
+	.tab-top-100 { top: 100px }
+
+	.tab-top-5\% { top: 5% }
+	.tab-top-10\% { top: 10% }
+	.tab-top-15\% { top: 15% }
+	.tab-top-20\% { top: 20% }
+	.tab-top-25\% { top: 25% }
+	.tab-top-30\% { top: 30% }
+	.tab-top-35\% { top: 35% }
+	.tab-top-40\% { top: 40% }
+	.tab-top-45\% { top: 45% }
 	.tab-top-50\% { top: 50% }
+	.tab-top-55\% { top: 55% }
+	.tab-top-60\% { top: 60% }
+	.tab-top-65\% { top: 65% }
+	.tab-top-70\% { top: 70% }
+	.tab-top-75\% { top: 75% }
+	.tab-top-80\% { top: 80% }
+	.tab-top-85\% { top: 85% }
+	.tab-top-90\% { top: 90% }
+	.tab-top-95\% { top: 95% }
 	.tab-top-100\% { top: 100% }
+
 	.tab-top-auto { top: auto }
 
+	.tab-left--100 { left: -100px }
+	.tab-left--50 { left: -50px }
+	.tab-left--40 { left: -40px }
+	.tab-left--30 { left: -30px }
+	.tab-left--25 { left: -25px }
+	.tab-left--20 { left: -20px }
+	.tab-left--15 { left: -15px }
+	.tab-left--10 { left: -10px }
+	.tab-left--5 { left: -5px }
 	.tab-left-0 { left: 0 }
+	.tab-left-5 { left: 5px }
+	.tab-left-10 { left: 10px }
+	.tab-left-15 { left: 15px }
+	.tab-left-20 { left: 20px }
+	.tab-left-25 { left: 25px }
+	.tab-left-30 { left: 30px }
+	.tab-left-40 { left: 40px }
+	.tab-left-50 { left: 50px }
+	.tab-left-100 { left: 100px }
+
+	.tab-left-5\% { left: 5% }
+	.tab-left-10\% { left: 10% }
+	.tab-left-15\% { left: 15% }
+	.tab-left-20\% { left: 20% }
+	.tab-left-25\% { left: 25% }
+	.tab-left-30\% { left: 30% }
+	.tab-left-35\% { left: 35% }
+	.tab-left-40\% { left: 40% }
+	.tab-left-45\% { left: 45% }
 	.tab-left-50\% { left: 50% }
+	.tab-left-55\% { left: 55% }
+	.tab-left-60\% { left: 60% }
+	.tab-left-65\% { left: 65% }
+	.tab-left-70\% { left: 70% }
+	.tab-left-75\% { left: 75% }
+	.tab-left-80\% { left: 80% }
+	.tab-left-85\% { left: 85% }
+	.tab-left-90\% { left: 90% }
+	.tab-left-95\% { left: 95% }
 	.tab-left-100\% { left: 100% }
+
 	.tab-left-auto { left: auto }
 
+	.tab-right--100 { right: -100px }
+	.tab-right--50 { right: -50px }
+	.tab-right--40 { right: -40px }
+	.tab-right--30 { right: -30px }
+	.tab-right--25 { right: -25px }
+	.tab-right--20 { right: -20px }
+	.tab-right--15 { right: -15px }
+	.tab-right--10 { right: -10px }
+	.tab-right--5 { right: -5px }
 	.tab-right-0 { right: 0 }
+	.tab-right-5 { right: 5px }
+	.tab-right-10 { right: 10px }
+	.tab-right-15 { right: 15px }
+	.tab-right-20 { right: 20px }
+	.tab-right-25 { right: 25px }
+	.tab-right-30 { right: 30px }
+	.tab-right-40 { right: 40px }
+	.tab-right-50 { right: 50px }
+	.tab-right-100 { right: 100px }
+
+	.tab-right-5\% { right: 5% }
+	.tab-right-10\% { right: 10% }
+	.tab-right-15\% { right: 15% }
+	.tab-right-20\% { right: 20% }
+	.tab-right-25\% { right: 25% }
+	.tab-right-30\% { right: 30% }
+	.tab-right-35\% { right: 35% }
+	.tab-right-40\% { right: 40% }
+	.tab-right-45\% { right: 45% }
 	.tab-right-50\% { right: 50% }
+	.tab-right-55\% { right: 55% }
+	.tab-right-60\% { right: 60% }
+	.tab-right-65\% { right: 65% }
+	.tab-right-70\% { right: 70% }
+	.tab-right-75\% { right: 75% }
+	.tab-right-80\% { right: 80% }
+	.tab-right-85\% { right: 85% }
+	.tab-right-90\% { right: 90% }
+	.tab-right-95\% { right: 95% }
 	.tab-right-100\% { right: 100% }
+
 	.tab-right-auto { right: auto }
 
+	.tab-bottom--100 { bottom: -100px }
+	.tab-bottom--50 { bottom: -50px }
+	.tab-bottom--40 { bottom: -40px }
+	.tab-bottom--30 { bottom: -30px }
+	.tab-bottom--25 { bottom: -25px }
+	.tab-bottom--20 { bottom: -20px }
+	.tab-bottom--15 { bottom: -15px }
+	.tab-bottom--10 { bottom: -10px }
+	.tab-bottom--5 { bottom: -5px }
 	.tab-bottom-0 { bottom: 0 }
+	.tab-bottom-5 { bottom: 5px }
+	.tab-bottom-10 { bottom: 10px }
+	.tab-bottom-15 { bottom: 15px }
+	.tab-bottom-20 { bottom: 20px }
+	.tab-bottom-25 { bottom: 25px }
+	.tab-bottom-30 { bottom: 30px }
+	.tab-bottom-40 { bottom: 40px }
+	.tab-bottom-50 { bottom: 50px }
+	.tab-bottom-100 { bottom: 100px }
+
+	.tab-bottom-5\% { bottom: 5% }
+	.tab-bottom-10\% { bottom: 10% }
+	.tab-bottom-15\% { bottom: 15% }
+	.tab-bottom-20\% { bottom: 20% }
+	.tab-bottom-25\% { bottom: 25% }
+	.tab-bottom-30\% { bottom: 30% }
+	.tab-bottom-35\% { bottom: 35% }
+	.tab-bottom-40\% { bottom: 40% }
+	.tab-bottom-45\% { bottom: 45% }
 	.tab-bottom-50\% { bottom: 50% }
+	.tab-bottom-55\% { bottom: 55% }
+	.tab-bottom-60\% { bottom: 60% }
+	.tab-bottom-65\% { bottom: 65% }
+	.tab-bottom-70\% { bottom: 70% }
+	.tab-bottom-75\% { bottom: 75% }
+	.tab-bottom-80\% { bottom: 80% }
+	.tab-bottom-85\% { bottom: 85% }
+	.tab-bottom-90\% { bottom: 90% }
+	.tab-bottom-95\% { bottom: 95% }
 	.tab-bottom-100\% { bottom: 100% }
+
 	.tab-bottom-auto { bottom: auto }
+
+	.tab-z-index-0 { z-index: 0 }
+	.tab-z-index-1 { z-index: 1 }
+	.tab-z-index-2 { z-index: 2 }
+	.tab-z-index-3 { z-index: 3 }
+	.tab-z-index-4 { z-index: 4 }
+	.tab-z-index-5 { z-index: 5 }
+	.tab-z-index-6 { z-index: 6 }
+	.tab-z-index-7 { z-index: 7 }
+	.tab-z-index-8 { z-index: 8 }
+	.tab-z-index-9 { z-index: 9 }
+	.tab-z-index-10 { z-index: 10 }
+	.tab-z-index-50 { z-index: 50 }
+	.tab-z-index-100 { z-index: 100 }
+	.tab-z-index-500 { z-index: 500 }
+	.tab-z-index-1000 { z-index: 1000 }
+	.tab-z-index-5000 { z-index: 5000 }
 
 
 	/* margin */
@@ -3278,6 +3620,10 @@ input[type=submit] {
 		align-content: space-between;
 		justify-content: space-between;
 	}
+	.tab-flex-around:before,
+	.tab-flex-around:after,
+	.tab-flex-between:before,
+	.tab-flex-between:after { display: none }
 
 	.tab-flex-left {
 		justify-content: flex-start;
@@ -3536,10 +3882,7 @@ input[type=submit] {
 	.tab-left { text-align: left }
 	.tab-right { text-align: right }
 	.tab-center { text-align: center }
-	.tab-justify {
-		text-align: justify;
-		text-align-last: justify;
-	}
+	.tab-justify { text-align: justify }
 
 	.tab-float-none { float: none }
 	.tab-float-left { float: left }
@@ -3845,6 +4188,7 @@ input[type=submit] {
 
 	.tab-bg-cover { background-size: cover }
 	.tab-bg-contain { background-size: contain }
+	.tab-bg-fixed { background-attachment: fixed }
 
 	.tab-bg-size-50\% { background-size: 50% }
 	.tab-bg-size-50\%-100\% { background-size: 50% 100% }
@@ -4189,25 +4533,194 @@ input[type=submit] {
 	.mob-absolute { position: absolute }
 	.mob-relative { position: relative }
 
+	.mob-top--100 { top: -100px }
+	.mob-top--50 { top: -50px }
+	.mob-top--40 { top: -40px }
+	.mob-top--30 { top: -30px }
+	.mob-top--25 { top: -25px }
+	.mob-top--20 { top: -20px }
+	.mob-top--15 { top: -15px }
+	.mob-top--10 { top: -10px }
+	.mob-top--5 { top: -5px }
 	.mob-top-0 { top: 0 }
+	.mob-top-5 { top: 5px }
+	.mob-top-10 { top: 10px }
+	.mob-top-15 { top: 15px }
+	.mob-top-20 { top: 20px }
+	.mob-top-25 { top: 25px }
+	.mob-top-30 { top: 30px }
+	.mob-top-40 { top: 40px }
+	.mob-top-50 { top: 50px }
+	.mob-top-100 { top: 100px }
+
+	.mob-top-5\% { top: 5% }
+	.mob-top-10\% { top: 10% }
+	.mob-top-15\% { top: 15% }
+	.mob-top-20\% { top: 20% }
+	.mob-top-25\% { top: 25% }
+	.mob-top-30\% { top: 30% }
+	.mob-top-35\% { top: 35% }
+	.mob-top-40\% { top: 40% }
+	.mob-top-45\% { top: 45% }
 	.mob-top-50\% { top: 50% }
+	.mob-top-55\% { top: 55% }
+	.mob-top-60\% { top: 60% }
+	.mob-top-65\% { top: 65% }
+	.mob-top-70\% { top: 70% }
+	.mob-top-75\% { top: 75% }
+	.mob-top-80\% { top: 80% }
+	.mob-top-85\% { top: 85% }
+	.mob-top-90\% { top: 90% }
+	.mob-top-95\% { top: 95% }
 	.mob-top-100\% { top: 100% }
+
 	.mob-top-auto { top: auto }
 
+	.mob-left--100 { left: -100px }
+	.mob-left--50 { left: -50px }
+	.mob-left--40 { left: -40px }
+	.mob-left--30 { left: -30px }
+	.mob-left--25 { left: -25px }
+	.mob-left--20 { left: -20px }
+	.mob-left--15 { left: -15px }
+	.mob-left--10 { left: -10px }
+	.mob-left--5 { left: -5px }
 	.mob-left-0 { left: 0 }
+	.mob-left-5 { left: 5px }
+	.mob-left-10 { left: 10px }
+	.mob-left-15 { left: 15px }
+	.mob-left-20 { left: 20px }
+	.mob-left-25 { left: 25px }
+	.mob-left-30 { left: 30px }
+	.mob-left-40 { left: 40px }
+	.mob-left-50 { left: 50px }
+	.mob-left-100 { left: 100px }
+
+	.mob-left-5\% { left: 5% }
+	.mob-left-10\% { left: 10% }
+	.mob-left-15\% { left: 15% }
+	.mob-left-20\% { left: 20% }
+	.mob-left-25\% { left: 25% }
+	.mob-left-30\% { left: 30% }
+	.mob-left-35\% { left: 35% }
+	.mob-left-40\% { left: 40% }
+	.mob-left-45\% { left: 45% }
 	.mob-left-50\% { left: 50% }
+	.mob-left-55\% { left: 55% }
+	.mob-left-60\% { left: 60% }
+	.mob-left-65\% { left: 65% }
+	.mob-left-70\% { left: 70% }
+	.mob-left-75\% { left: 75% }
+	.mob-left-80\% { left: 80% }
+	.mob-left-85\% { left: 85% }
+	.mob-left-90\% { left: 90% }
+	.mob-left-95\% { left: 95% }
 	.mob-left-100\% { left: 100% }
+
 	.mob-left-auto { left: auto }
 
+	.mob-right--100 { right: -100px }
+	.mob-right--50 { right: -50px }
+	.mob-right--40 { right: -40px }
+	.mob-right--30 { right: -30px }
+	.mob-right--25 { right: -25px }
+	.mob-right--20 { right: -20px }
+	.mob-right--15 { right: -15px }
+	.mob-right--10 { right: -10px }
+	.mob-right--5 { right: -5px }
 	.mob-right-0 { right: 0 }
+	.mob-right-5 { right: 5px }
+	.mob-right-10 { right: 10px }
+	.mob-right-15 { right: 15px }
+	.mob-right-20 { right: 20px }
+	.mob-right-25 { right: 25px }
+	.mob-right-30 { right: 30px }
+	.mob-right-40 { right: 40px }
+	.mob-right-50 { right: 50px }
+	.mob-right-100 { right: 100px }
+
+	.mob-right-5\% { right: 5% }
+	.mob-right-10\% { right: 10% }
+	.mob-right-15\% { right: 15% }
+	.mob-right-20\% { right: 20% }
+	.mob-right-25\% { right: 25% }
+	.mob-right-30\% { right: 30% }
+	.mob-right-35\% { right: 35% }
+	.mob-right-40\% { right: 40% }
+	.mob-right-45\% { right: 45% }
 	.mob-right-50\% { right: 50% }
+	.mob-right-55\% { right: 55% }
+	.mob-right-60\% { right: 60% }
+	.mob-right-65\% { right: 65% }
+	.mob-right-70\% { right: 70% }
+	.mob-right-75\% { right: 75% }
+	.mob-right-80\% { right: 80% }
+	.mob-right-85\% { right: 85% }
+	.mob-right-90\% { right: 90% }
+	.mob-right-95\% { right: 95% }
 	.mob-right-100\% { right: 100% }
+
 	.mob-right-auto { right: auto }
 
+	.mob-bottom--100 { bottom: -100px }
+	.mob-bottom--50 { bottom: -50px }
+	.mob-bottom--40 { bottom: -40px }
+	.mob-bottom--30 { bottom: -30px }
+	.mob-bottom--25 { bottom: -25px }
+	.mob-bottom--20 { bottom: -20px }
+	.mob-bottom--15 { bottom: -15px }
+	.mob-bottom--10 { bottom: -10px }
+	.mob-bottom--5 { bottom: -5px }
 	.mob-bottom-0 { bottom: 0 }
+	.mob-bottom-5 { bottom: 5px }
+	.mob-bottom-10 { bottom: 10px }
+	.mob-bottom-15 { bottom: 15px }
+	.mob-bottom-20 { bottom: 20px }
+	.mob-bottom-25 { bottom: 25px }
+	.mob-bottom-30 { bottom: 30px }
+	.mob-bottom-40 { bottom: 40px }
+	.mob-bottom-50 { bottom: 50px }
+	.mob-bottom-100 { bottom: 100px }
+
+	.mob-bottom-5\% { bottom: 5% }
+	.mob-bottom-10\% { bottom: 10% }
+	.mob-bottom-15\% { bottom: 15% }
+	.mob-bottom-20\% { bottom: 20% }
+	.mob-bottom-25\% { bottom: 25% }
+	.mob-bottom-30\% { bottom: 30% }
+	.mob-bottom-35\% { bottom: 35% }
+	.mob-bottom-40\% { bottom: 40% }
+	.mob-bottom-45\% { bottom: 45% }
 	.mob-bottom-50\% { bottom: 50% }
+	.mob-bottom-55\% { bottom: 55% }
+	.mob-bottom-60\% { bottom: 60% }
+	.mob-bottom-65\% { bottom: 65% }
+	.mob-bottom-70\% { bottom: 70% }
+	.mob-bottom-75\% { bottom: 75% }
+	.mob-bottom-80\% { bottom: 80% }
+	.mob-bottom-85\% { bottom: 85% }
+	.mob-bottom-90\% { bottom: 90% }
+	.mob-bottom-95\% { bottom: 95% }
 	.mob-bottom-100\% { bottom: 100% }
+
 	.mob-bottom-auto { bottom: auto }
+
+	.mob-z-index-0 { z-index: 0 }
+	.mob-z-index-1 { z-index: 1 }
+	.mob-z-index-2 { z-index: 2 }
+	.mob-z-index-3 { z-index: 3 }
+	.mob-z-index-4 { z-index: 4 }
+	.mob-z-index-5 { z-index: 5 }
+	.mob-z-index-6 { z-index: 6 }
+	.mob-z-index-7 { z-index: 7 }
+	.mob-z-index-8 { z-index: 8 }
+	.mob-z-index-9 { z-index: 9 }
+	.mob-z-index-10 { z-index: 10 }
+	.mob-z-index-50 { z-index: 50 }
+	.mob-z-index-100 { z-index: 100 }
+	.mob-z-index-500 { z-index: 500 }
+	.mob-z-index-1000 { z-index: 1000 }
+	.mob-z-index-5000 { z-index: 5000 }
 
 
 	/* margin */
@@ -5348,6 +5861,10 @@ input[type=submit] {
 		align-content: space-between;
 		justify-content: space-between;
 	}
+	.mob-flex-around:before,
+	.mob-flex-around:after,
+	.mob-flex-between:before,
+	.mob-flex-between:after { display: none }
 
 	.mob-flex-left {
 		justify-content: flex-start;
@@ -5606,10 +6123,7 @@ input[type=submit] {
 	.mob-left { text-align: left }
 	.mob-right { text-align: right }
 	.mob-center { text-align: center }
-	.mob-justify {
-		text-align: justify;
-		text-align-last: justify;
-	}
+	.mob-justify { text-align: justify }
 
 	.mob-float-none { float: none }
 	.mob-float-left { float: left }
@@ -5915,6 +6429,7 @@ input[type=submit] {
 
 	.mob-bg-cover { background-size: cover }
 	.mob-bg-contain { background-size: contain }
+	.mob-bg-fixed { background-attachment: fixed }
 
 	.mob-bg-size-50\% { background-size: 50% }
 	.mob-bg-size-50\%-100\% { background-size: 50% 100% }

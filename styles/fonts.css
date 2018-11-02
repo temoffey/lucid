@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.4
-	Date: 2018-10-16
+	Version: 0.2.6
+	Date: 2018-11-02
 	Author: temoffey <temofffey@gmail.com>
 	File: fonts.css
 */
@@ -586,75 +586,75 @@
 @font-face {
 	font-weight: 200;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyLight.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Light.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-weight: 200;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyLightItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-LightItalic.woff') format('woff');
 }
 
 @font-face {
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBook.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Book.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBookItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-BookItalic.woff') format('woff');
 }
 
 @font-face {
 	font-weight: 500;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyMedium.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-weight: 500;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyMediumItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-MediumItalic.woff') format('woff');
 }
 
 @font-face {
 	font-weight: 600;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneySemibold.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Semibold.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-weight: 600;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneySemiboldItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-SemiboldItalic.woff') format('woff');
 }
 
 @font-face {
 	font-weight: bold;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBold.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Bold.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-weight: bold;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBoldItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-BoldItalic.woff') format('woff');
 }
 
 @font-face {
 	font-weight: 900;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBlack.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-Black.woff') format('woff');
 }
 
 @font-face {
 	font-style: italic;
 	font-weight: 900;
 	font-family: Whitney;
-	src: url('../fonts/whitney/WhitneyBlackItalic.woff') format('woff');
+	src: url('../fonts/whitney/Whitney-BlackItalic.woff') format('woff');
 }
