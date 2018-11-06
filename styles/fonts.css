@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.6
-	Date: 2018-11-02
+	Version: 0.2.7
+	Date: 2018-11-06
 	Author: temoffey <temofffey@gmail.com>
 	File: fonts.css
 */
@@ -60,6 +60,7 @@
 
 
 /* Futura PT */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/896-futura-pt.html */
 
 @font-face {
 	font-weight: 300;
@@ -209,7 +210,8 @@
 }
 
 
-/* 'Helvetica' */
+/* Helvetica */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/503-helvetica-neue-cyr.html */
 
 @font-face {
 	font-weight: 100;
@@ -315,6 +317,7 @@
 
 
 /* Montserrat */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/604-montserrat.html */
 
 @font-face {
 	font-weight: 100;
@@ -432,7 +435,220 @@
 }
 
 
+/* PF Agora Sans Pro */
+/* font get from site https://nomail.com.ua/font/Agora */
+
+@font-face {
+	font-weight: 100;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-ExtraThin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-ExtraThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 200;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-UltraBlack.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: 'PF Agora Sans Pro';
+	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-UltraBlackItalic.woff') format('woff');
+}
+
+
+/* PF Agora Slab Pro */
+/* font get from site https://nomail.com.ua/font/Agora */
+
+@font-face {
+	font-weight: 100;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-ExtraThin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-ExtraThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 200;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Light.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 500;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-Black.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-UltraBlack.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 900;
+	font-family: 'PF Agora Slab Pro';
+	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-UltraBlackItalic.woff') format('woff');
+}
+
+
 /* PT Serif */
+/* font get from site https://webfonts.pro/base-web-fonts/serif/813-pt-serif.html */
 
 @font-face {
 	font-family: 'PT Serif';
@@ -459,7 +675,32 @@
 }
 
 
+/* Rex */
+
+/*
+	font get from site https://www.fontfabric.com/rex-free-font/
+	convert to woff on the site https://convertio.co/ru/otf-woff/
+*/
+
+@font-face {
+	font-weight: 300;
+	font-family: Rex;
+	src: url('../fonts/rex/Rex-Light.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Rex;
+	src: url('../fonts/rex/Rex-Bold.woff') format('woff');
+}
+
+
 /* Roboto */
+
+/*
+	font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/815-roboto.html
+	condensed stretch get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/816-roboto-condensed.html
+*/
 
 @font-face {
 	font-weight: 100;
@@ -582,6 +823,7 @@
 
 
 /* Whitney */
+/* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/898-whitney.html */
 
 @font-face {
 	font-weight: 200;

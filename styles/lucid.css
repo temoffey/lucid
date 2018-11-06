@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.6
-	Date: 2018-11-02
+	Version: 0.2.7
+	Date: 2018-11-06
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -249,15 +249,41 @@ input[type=submit] {
 	margin-right: auto;
 }
 
+.margin--100 { margin: -100px }
 .margin--100-0 { margin: -100px 0 }
+.margin--100-auto { margin: -100px auto }
+
+.margin--50 { margin: -50px }
 .margin--50-0 { margin: -50px 0 }
+.margin--50-auto { margin: -50px auto }
+
+.margin--40 { margin: -40px }
 .margin--40-0 { margin: -40px 0 }
+.margin--40-auto { margin: -40px auto }
+
+.margin--30 { margin: -30px }
 .margin--30-0 { margin: -30px 0 }
+.margin--30-auto { margin: -30px auto }
+
+.margin--25 { margin: -25px }
 .margin--25-0 { margin: -25px 0 }
+.margin--25-auto { margin: -25px auto }
+
+.margin--20 { margin: -20px }
 .margin--20-0 { margin: -20px 0 }
+.margin--20-auto { margin: -20px auto }
+
+.margin--15 { margin: -15px }
 .margin--15-0 { margin: -15px 0 }
+.margin--15-auto { margin: -15px auto }
+
+.margin--10 { margin: -10px }
 .margin--10-0 { margin: -10px 0 }
+.margin--10-auto { margin: -10px auto }
+
+.margin--5 { margin: -5px }
 .margin--5-0 { margin: -5px 0 }
+.margin--5-auto { margin: -5px auto }
 
 .margin-0--100 { margin: 0 -100px }
 .margin-0--50 { margin: 0 -50px }
@@ -388,6 +414,15 @@ input[type=submit] {
 .margin-100-50 { margin: 100px 50px }
 .margin-100-auto { margin: 100px auto }
 
+.margin-auto--100 { margin: auto -100px }
+.margin-auto--50 { margin: auto -50px }
+.margin-auto--40 { margin: auto -40px }
+.margin-auto--30 { margin: auto -30px }
+.margin-auto--25 { margin: auto -25px }
+.margin-auto--20 { margin: auto -20px }
+.margin-auto--15 { margin: auto -15px }
+.margin-auto--10 { margin: auto -10px }
+.margin-auto--5 { margin: auto -5px }
 .margin-auto { margin: auto }
 .margin-auto-0 { margin: auto 0 }
 .margin-auto-5 { margin: auto 5px }
@@ -750,6 +785,7 @@ input[type=submit] {
 .height-400\% { height: 400% }
 .height-450\% { height: 450% }
 .height-500\% { height: 500% }
+.height-1000\% { height: 1000% }
 
 .height-5vh { height: 5vh }
 .height-10vh { height: 10vh }
@@ -781,6 +817,7 @@ input[type=submit] {
 .height-400vh { height: 400vh }
 .height-450vh { height: 450vh }
 .height-500vh { height: 500vh }
+.height-1000vh { height: 1000vh }
 
 .height-auto { height: auto }
 
@@ -862,6 +899,7 @@ input[type=submit] {
 .min-height-400\% { min-height: 400% }
 .min-height-450\% { min-height: 450% }
 .min-height-500\% { min-height: 500% }
+.min-height-1000\% { min-height: 1000% }
 
 .min-height-5vh { min-height: 5vh }
 .min-height-10vh { min-height: 10vh }
@@ -893,6 +931,7 @@ input[type=submit] {
 .min-height-400vh { min-height: 400vh }
 .min-height-450vh { min-height: 450vh }
 .min-height-500vh { min-height: 500vh }
+.min-height-1000vh { min-height: 1000vh }
 
 .min-height-auto { min-height: auto }
 
@@ -974,6 +1013,7 @@ input[type=submit] {
 .max-height-400\% { max-height: 400% }
 .max-height-450\% { max-height: 450% }
 .max-height-500\% { max-height: 500% }
+.max-height-1000\% { max-height: 1000% }
 
 .max-height-5vh { max-height: 5vh }
 .max-height-10vh { max-height: 10vh }
@@ -1005,6 +1045,7 @@ input[type=submit] {
 .max-height-400vh { max-height: 400vh }
 .max-height-450vh { max-height: 450vh }
 .max-height-500vh { max-height: 500vh }
+.max-height-1000vh { max-height: 1000vh }
 
 .max-height-auto { max-height: auto }
 
@@ -1628,10 +1669,13 @@ input[type=submit] {
 .helvetica { font-family: Helvetica, Arial, sans-serif }
 .futura-pt { font-family: 'Futura PT', Arial, sans-serif }
 .montserrat { font-family: Montserrat, Arial, sans-serif }
+.pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
 
 .times { font-family: 'Times New Roman', Times, serif }
 .pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
+.pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
 
+.rex { font-family: Rex, Menlo, Consolas, monospace }
 .monospace { font-family: Menlo, Consolas, monospace }
 
 
@@ -2489,15 +2533,41 @@ input[type=submit] {
 		margin-right: auto;
 	}
 
+	.tab-margin--100 { margin: -100px }
 	.tab-margin--100-0 { margin: -100px 0 }
+	.tab-margin--100-auto { margin: -100px auto }
+
+	.tab-margin--50 { margin: -50px }
 	.tab-margin--50-0 { margin: -50px 0 }
+	.tab-margin--50-auto { margin: -50px auto }
+
+	.tab-margin--40 { margin: -40px }
 	.tab-margin--40-0 { margin: -40px 0 }
+	.tab-margin--40-auto { margin: -40px auto }
+
+	.tab-margin--30 { margin: -30px }
 	.tab-margin--30-0 { margin: -30px 0 }
+	.tab-margin--30-auto { margin: -30px auto }
+
+	.tab-margin--25 { margin: -25px }
 	.tab-margin--25-0 { margin: -25px 0 }
+	.tab-margin--25-auto { margin: -25px auto }
+
+	.tab-margin--20 { margin: -20px }
 	.tab-margin--20-0 { margin: -20px 0 }
+	.tab-margin--20-auto { margin: -20px auto }
+
+	.tab-margin--15 { margin: -15px }
 	.tab-margin--15-0 { margin: -15px 0 }
+	.tab-margin--15-auto { margin: -15px auto }
+
+	.tab-margin--10 { margin: -10px }
 	.tab-margin--10-0 { margin: -10px 0 }
+	.tab-margin--10-auto { margin: -10px auto }
+
+	.tab-margin--5 { margin: -5px }
 	.tab-margin--5-0 { margin: -5px 0 }
+	.tab-margin--5-auto { margin: -5px auto }
 
 	.tab-margin-0--100 { margin: 0 -100px }
 	.tab-margin-0--50 { margin: 0 -50px }
@@ -2628,6 +2698,15 @@ input[type=submit] {
 	.tab-margin-100-50 { margin: 100px 50px }
 	.tab-margin-100-auto { margin: 100px auto }
 
+	.tab-margin-auto--100 { margin: auto -100px }
+	.tab-margin-auto--50 { margin: auto -50px }
+	.tab-margin-auto--40 { margin: auto -40px }
+	.tab-margin-auto--30 { margin: auto -30px }
+	.tab-margin-auto--25 { margin: auto -25px }
+	.tab-margin-auto--20 { margin: auto -20px }
+	.tab-margin-auto--15 { margin: auto -15px }
+	.tab-margin-auto--10 { margin: auto -10px }
+	.tab-margin-auto--5 { margin: auto -5px }
 	.tab-margin-auto { margin: auto }
 	.tab-margin-auto-0 { margin: auto 0 }
 	.tab-margin-auto-5 { margin: auto 5px }
@@ -3866,10 +3945,13 @@ input[type=submit] {
 	.tab-helvetica { font-family: Helvetica, Arial, sans-serif }
 	.tab-futura-pt { font-family: 'Futura PT', Arial, sans-serif }
 	.tab-montserrat { font-family: Montserrat, Arial, sans-serif }
+	.tab-pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
 
 	.tab-times { font-family: 'Times New Roman', Times, serif }
 	.tab-pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
+	.tab-pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
 
+	.tab-rex { font-family: Rex, Menlo, Consolas, monospace }
 	.tab-monospace { font-family: Menlo, Consolas, monospace }
 
 
@@ -4730,15 +4812,41 @@ input[type=submit] {
 		margin-right: auto;
 	}
 
+	.mob-margin--100 { margin: -100px }
 	.mob-margin--100-0 { margin: -100px 0 }
+	.mob-margin--100-auto { margin: -100px auto }
+
+	.mob-margin--50 { margin: -50px }
 	.mob-margin--50-0 { margin: -50px 0 }
+	.mob-margin--50-auto { margin: -50px auto }
+
+	.mob-margin--40 { margin: -40px }
 	.mob-margin--40-0 { margin: -40px 0 }
+	.mob-margin--40-auto { margin: -40px auto }
+
+	.mob-margin--30 { margin: -30px }
 	.mob-margin--30-0 { margin: -30px 0 }
+	.mob-margin--30-auto { margin: -30px auto }
+
+	.mob-margin--25 { margin: -25px }
 	.mob-margin--25-0 { margin: -25px 0 }
+	.mob-margin--25-auto { margin: -25px auto }
+
+	.mob-margin--20 { margin: -20px }
 	.mob-margin--20-0 { margin: -20px 0 }
+	.mob-margin--20-auto { margin: -20px auto }
+
+	.mob-margin--15 { margin: -15px }
 	.mob-margin--15-0 { margin: -15px 0 }
+	.mob-margin--15-auto { margin: -15px auto }
+
+	.mob-margin--10 { margin: -10px }
 	.mob-margin--10-0 { margin: -10px 0 }
+	.mob-margin--10-auto { margin: -10px auto }
+
+	.mob-margin--5 { margin: -5px }
 	.mob-margin--5-0 { margin: -5px 0 }
+	.mob-margin--5-auto { margin: -5px auto }
 
 	.mob-margin-0--100 { margin: 0 -100px }
 	.mob-margin-0--50 { margin: 0 -50px }
@@ -4869,6 +4977,15 @@ input[type=submit] {
 	.mob-margin-100-50 { margin: 100px 50px }
 	.mob-margin-100-auto { margin: 100px auto }
 
+	.mob-margin-auto--100 { margin: auto -100px }
+	.mob-margin-auto--50 { margin: auto -50px }
+	.mob-margin-auto--40 { margin: auto -40px }
+	.mob-margin-auto--30 { margin: auto -30px }
+	.mob-margin-auto--25 { margin: auto -25px }
+	.mob-margin-auto--20 { margin: auto -20px }
+	.mob-margin-auto--15 { margin: auto -15px }
+	.mob-margin-auto--10 { margin: auto -10px }
+	.mob-margin-auto--5 { margin: auto -5px }
 	.mob-margin-auto { margin: auto }
 	.mob-margin-auto-0 { margin: auto 0 }
 	.mob-margin-auto-5 { margin: auto 5px }
@@ -6107,10 +6224,13 @@ input[type=submit] {
 	.mob-helvetica { font-family: Helvetica, Arial, sans-serif }
 	.mob-futura-pt { font-family: 'Futura PT', Arial, sans-serif }
 	.mob-montserrat { font-family: Montserrat, Arial, sans-serif }
+	.mob-pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
 
 	.mob-times { font-family: 'Times New Roman', Times, serif }
 	.mob-pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
+	.mob-pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
 
+	.mob-rex { font-family: Rex, Menlo, Consolas, monospace }
 	.mob-monospace { font-family: Menlo, Consolas, monospace }
 
 
