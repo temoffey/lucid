@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.7
-	Date: 2018-11-06
+	Version: 0.2.8
+	Date: 2018-11-29
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1708,10 +1708,12 @@ input[type=submit] {
 /* other */
 
 .pre { white-space: pre }
-.nowrap { white-space: nowrap }
 .pre-wrap { white-space: pre-wrap }
+.nowrap, .no-wrap { white-space: nowrap }
 
 .break { word-wrap: break-word }
+
+.ellipsis { text-overflow: ellipsis }
 
 .crop { overflow: hidden }
 .crop-x { overflow-x: hidden }
@@ -1720,8 +1722,8 @@ input[type=submit] {
 .scroll-x { overflow-x: scroll }
 .scroll-y { overflow-y: scroll }
 
-.visible { visibility: visible }
 .hidden { visibility: hidden }
+.visible { visibility: visible }
 
 .letter-1 { letter-spacing: 1px }
 .letter-2 { letter-spacing: 2px }
@@ -2020,6 +2022,12 @@ input[type=submit] {
 .bg-pos-100\%-0 { background-position: 100% 0 }
 .bg-pos-100\%-50\% { background-position: 100% 50% }
 
+.bg-pos-top { background-position: top }
+.bg-pos-left { background-position: left }
+.bg-pos-right { background-position: right }
+.bg-pos-bottom { background-position: bottom }
+.bg-pos-center { background-position: center }
+
 .bg-repeat { background-repeat: repeat }
 .bg-repeat-x { background-repeat: repeat-x }
 .bg-repeat-y { background-repeat: repeat-y }
@@ -2284,6 +2292,22 @@ input[type=submit] {
 .transition-all-1-linear { transition: all 1s linear }
 
 
+/* transform */
+
+.skew--10 { transform: skew(-10deg) }
+.skew--10 > * { transform: skew(10deg) }
+.skew--10 > .skew--10 { transform: none }
+
+.rotate--90 {
+	text-align: right;
+	transform-origin: 0 100%;
+	transform: rotate(-90deg) translate(-100%);
+}
+
+.hover-scale-0\.1:hover { transform: scale(1.1) }
+.hover-scale-0\.01:hover { transform: scale(1.01) }
+
+
 /* cursor */
 
 .default { cursor: default }
@@ -2294,6 +2318,12 @@ input[type=submit] {
 .wait { cursor: wait }
 
 
+/* object */
+
+.fit-cover { object-fit: cover }
+.fit-contain { object-fit: contain }
+
+
 /* interactive */
 
 .no-scrollbar, .scrollbar-none {
@@ -2301,9 +2331,7 @@ input[type=submit] {
 	overflow: -moz-scrollbars-none;
 }
 
-.no-scrollbar::-webkit-scrollbar, .scrollbar-none::-webkit-scrollbar {
-	display: none;
-}
+.no-scrollbar::-webkit-scrollbar, .scrollbar-none::-webkit-scrollbar { display: none }
 
 .no-drag, .no-drag *, .drag-none, .drag-none * {
 	user-drag: none;
@@ -3069,6 +3097,7 @@ input[type=submit] {
 	.tab-height-400\% { height: 400% }
 	.tab-height-450\% { height: 450% }
 	.tab-height-500\% { height: 500% }
+	.tab-height-1000\% { height: 1000% }
 
 	.tab-height-5vh { height: 5vh }
 	.tab-height-10vh { height: 10vh }
@@ -3100,6 +3129,7 @@ input[type=submit] {
 	.tab-height-400vh { height: 400vh }
 	.tab-height-450vh { height: 450vh }
 	.tab-height-500vh { height: 500vh }
+	.tab-height-1000vh { height: 1000vh }
 
 	.tab-height-auto { height: auto }
 
@@ -3181,6 +3211,7 @@ input[type=submit] {
 	.tab-min-height-400\% { min-height: 400% }
 	.tab-min-height-450\% { min-height: 450% }
 	.tab-min-height-500\% { min-height: 500% }
+	.tab-min-height-1000\% { min-height: 1000% }
 
 	.tab-min-height-5vh { min-height: 5vh }
 	.tab-min-height-10vh { min-height: 10vh }
@@ -3212,6 +3243,7 @@ input[type=submit] {
 	.tab-min-height-400vh { min-height: 400vh }
 	.tab-min-height-450vh { min-height: 450vh }
 	.tab-min-height-500vh { min-height: 500vh }
+	.tab-min-height-1000vh { min-height: 1000vh }
 
 	.tab-min-height-auto { min-height: auto }
 
@@ -3293,6 +3325,7 @@ input[type=submit] {
 	.tab-max-height-400\% { max-height: 400% }
 	.tab-max-height-450\% { max-height: 450% }
 	.tab-max-height-500\% { max-height: 500% }
+	.tab-max-height-1000\% { max-height: 1000% }
 
 	.tab-max-height-5vh { max-height: 5vh }
 	.tab-max-height-10vh { max-height: 10vh }
@@ -3324,6 +3357,7 @@ input[type=submit] {
 	.tab-max-height-400vh { max-height: 400vh }
 	.tab-max-height-450vh { max-height: 450vh }
 	.tab-max-height-500vh { max-height: 500vh }
+	.tab-max-height-1000vh { max-height: 1000vh }
 
 	.tab-max-height-auto { max-height: auto }
 
@@ -3984,10 +4018,12 @@ input[type=submit] {
 	/* other */
 
 	.tab-pre { white-space: pre }
-	.tab-nowrap { white-space: nowrap }
 	.tab-pre-wrap { white-space: pre-wrap }
+	.tab-nowrap, .tab-no-wrap { white-space: nowrap }
 
 	.tab-break { word-wrap: break-word }
+
+	.tab-ellipsis { text-overflow: ellipsis }
 
 	.tab-crop { overflow: hidden }
 	.tab-crop-x { overflow-x: hidden }
@@ -3996,8 +4032,8 @@ input[type=submit] {
 	.tab-scroll-x { overflow-x: scroll }
 	.tab-scroll-y { overflow-y: scroll }
 
-	.tab-visible { visibility: visible }
 	.tab-hidden { visibility: hidden }
+	.tab-visible { visibility: visible }
 
 	.tab-letter-1 { letter-spacing: 1px }
 	.tab-letter-2 { letter-spacing: 2px }
@@ -4296,6 +4332,12 @@ input[type=submit] {
 	.tab-bg-pos-100\%-0 { background-position: 100% 0 }
 	.tab-bg-pos-100\%-50\% { background-position: 100% 50% }
 
+	.tab-bg-pos-top { background-position: top }
+	.tab-bg-pos-left { background-position: left }
+	.tab-bg-pos-right { background-position: right }
+	.tab-bg-pos-bottom { background-position: bottom }
+	.tab-bg-pos-center { background-position: center }
+
 	.tab-bg-repeat { background-repeat: repeat }
 	.tab-bg-repeat-x { background-repeat: repeat-x }
 	.tab-bg-repeat-y { background-repeat: repeat-y }
@@ -4561,6 +4603,22 @@ input[type=submit] {
 	.tab-transition-all-1-linear { transition-property: all 1s linear }
 
 
+	/* transform */
+
+	.tab-skew--10 { transform: skew(-10deg) }
+	.tab-skew--10 > * { transform: skew(10deg) }
+	.tab-skew--10 > .tab-skew--10 { transform: none }
+
+	.tab-rotate--90 {
+		text-align: right;
+		transform-origin: 0 100%;
+		transform: rotate(-90deg) translate(-100%);
+	}
+
+	.tab-hover-scale-0\.1:hover { transform: scale(1.1) }
+	.tab-hover-scale-0\.01:hover { transform: scale(1.01) }
+
+
 	/* cursor */
 
 	.tab-default { cursor: default }
@@ -4571,6 +4629,12 @@ input[type=submit] {
 	.tab-wait { cursor: wait }
 
 
+	/* object */
+
+	.tab-fit-cover { object-fit: cover }
+	.tab-fit-contain { object-fit: contain }
+
+
 	/* interactive */
 
 	.tab-no-scrollbar, .tab-scrollbar-none {
@@ -4578,8 +4642,7 @@ input[type=submit] {
 		overflow: -moz-scrollbars-none;
 	}
 
-	.tab-no-scrollbar::-webkit-scrollbar,
-	.tab-scrollbar-none::-webkit-scrollbar { display: none }
+	.tab-no-scrollbar::-webkit-scrollbar, .tab-scrollbar-none::-webkit-scrollbar { display: none }
 
 	.tab-no-drag, .tab-drag-none,
 	.tab-no-drag *, .tab-drag-none * {
@@ -5348,6 +5411,7 @@ input[type=submit] {
 	.mob-height-400\% { height: 400% }
 	.mob-height-450\% { height: 450% }
 	.mob-height-500\% { height: 500% }
+	.mob-height-1000\% { height: 1000% }
 
 	.mob-height-5vh { height: 5vh }
 	.mob-height-10vh { height: 10vh }
@@ -5379,6 +5443,7 @@ input[type=submit] {
 	.mob-height-400vh { height: 400vh }
 	.mob-height-450vh { height: 450vh }
 	.mob-height-500vh { height: 500vh }
+	.mob-height-1000vh { height: 1000vh }
 
 	.mob-height-auto { height: auto }
 
@@ -5460,6 +5525,7 @@ input[type=submit] {
 	.mob-min-height-400\% { min-height: 400% }
 	.mob-min-height-450\% { min-height: 450% }
 	.mob-min-height-500\% { min-height: 500% }
+	.mob-min-height-1000\% { min-height: 1000% }
 
 	.mob-min-height-5vh { min-height: 5vh }
 	.mob-min-height-10vh { min-height: 10vh }
@@ -5491,6 +5557,7 @@ input[type=submit] {
 	.mob-min-height-400vh { min-height: 400vh }
 	.mob-min-height-450vh { min-height: 450vh }
 	.mob-min-height-500vh { min-height: 500vh }
+	.mob-min-height-1000vh { min-height: 1000vh }
 
 	.mob-min-height-auto { min-height: auto }
 
@@ -5572,6 +5639,7 @@ input[type=submit] {
 	.mob-max-height-400\% { max-height: 400% }
 	.mob-max-height-450\% { max-height: 450% }
 	.mob-max-height-500\% { max-height: 500% }
+	.mob-max-height-1000\% { max-height: 1000% }
 
 	.mob-max-height-5vh { max-height: 5vh }
 	.mob-max-height-10vh { max-height: 10vh }
@@ -5603,6 +5671,7 @@ input[type=submit] {
 	.mob-max-height-400vh { max-height: 400vh }
 	.mob-max-height-450vh { max-height: 450vh }
 	.mob-max-height-500vh { max-height: 500vh }
+	.mob-max-height-1000vh { max-height: 1000vh }
 
 	.mob-max-height-auto { max-height: auto }
 
@@ -6263,10 +6332,12 @@ input[type=submit] {
 	/* other */
 
 	.mob-pre { white-space: pre }
-	.mob-nowrap { white-space: nowrap }
 	.mob-pre-wrap { white-space: pre-wrap }
+	.mob-nowrap, .tab-no-wrap { white-space: nowrap }
 
 	.mob-break { word-wrap: break-word }
+
+	.mob-ellipsis { text-overflow: ellipsis }
 
 	.mob-crop { overflow: hidden }
 	.mob-crop-x { overflow-x: hidden }
@@ -6275,8 +6346,8 @@ input[type=submit] {
 	.mob-scroll-x { overflow-x: scroll }
 	.mob-scroll-y { overflow-y: scroll }
 
-	.mob-visible { visibility: visible }
 	.mob-hidden { visibility: hidden }
+	.mob-visible { visibility: visible }
 
 	.mob-letter-1 { letter-spacing: 1px }
 	.mob-letter-2 { letter-spacing: 2px }
@@ -6575,6 +6646,12 @@ input[type=submit] {
 	.mob-bg-pos-100\%-0 { background-position: 100% 0 }
 	.mob-bg-pos-100\%-50\% { background-position: 100% 50% }
 
+	.mob-bg-pos-top { background-position: top }
+	.mob-bg-pos-left { background-position: left }
+	.mob-bg-pos-right { background-position: right }
+	.mob-bg-pos-bottom { background-position: bottom }
+	.mob-bg-pos-center { background-position: center }
+
 	.mob-bg-repeat { background-repeat: repeat }
 	.mob-bg-repeat-x { background-repeat: repeat-x }
 	.mob-bg-repeat-y { background-repeat: repeat-y }
@@ -6840,6 +6917,22 @@ input[type=submit] {
 	.mob-transition-all-1-linear { transition-property: all 1s linear }
 
 
+	/* transform */
+
+	.mob-skew--10 { transform: skew(-10deg) }
+	.mob-skew--10 > * { transform: skew(10deg) }
+	.mob-skew--10 > .tab-skew--10 { transform: none }
+
+	.mob-rotate--90 {
+		text-align: right;
+		transform-origin: 0 100%;
+		transform: rotate(-90deg) translate(-100%);
+	}
+
+	.mob-hover-scale-0\.1:hover { transform: scale(1.1) }
+	.mob-hover-scale-0\.01:hover { transform: scale(1.01) }
+
+
 	/* cursor */
 
 	.mob-default { cursor: default }
@@ -6850,6 +6943,12 @@ input[type=submit] {
 	.mob-wait { cursor: wait }
 
 
+	/* object */
+
+	.mob-fit-cover { object-fit: cover }
+	.mob-fit-contain { object-fit: contain }
+
+
 	/* interactive */
 
 	.mob-no-scrollbar, .mob-scrollbar-none {
@@ -6857,8 +6956,7 @@ input[type=submit] {
 		overflow: -moz-scrollbars-none;
 	}
 
-	.mob-no-scrollbar::-webkit-scrollbar,
-	.mob-scrollbar-none::-webkit-scrollbar { display: none }
+	.mob-no-scrollbar::-webkit-scrollbar, .mob-scrollbar-none::-webkit-scrollbar { display: none }
 
 	.mob-no-drag, .mob-drag-none,
 	.mob-no-drag *, .mob-drag-none * {
