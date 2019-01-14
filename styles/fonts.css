@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.8
-	Date: 2018-11-29
+	Version: 0.2.9
+	Date: 2019-01-14
 	Author: temoffey <temofffey@gmail.com>
 	File: fonts.css
 */
@@ -325,6 +325,125 @@
 	font-weight: 900;
 	font-family: Helvetica;
 	src: url('../fonts/helvetica/HelveticaNeueCyr-BlackItalic.woff') format('woff');
+}
+
+
+/* Lato */
+/* font get from site https://webfonts.pro/base-web-fonts/603-lato.html */
+
+@font-face {
+	font-weight: 100;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Hairline.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 100;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-HairlineItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 200;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Light.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 300;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 500;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Semibold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 600;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-SemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-weight: bold;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 800;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-HeavyItalic.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-Black.woff') format('woff');
+}
+
+@font-face {
+	font-weight: 900;
+	font-style: italic;
+	font-family: Lato;
+	src: url('../fonts/lato/Lato-BlackItalic.woff') format('woff');
 }
 
 

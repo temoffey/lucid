@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.8
-	Date: 2018-11-29
+	Version: 0.2.9
+	Date: 2019-01-14
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1664,6 +1664,7 @@ input[type=submit] {
 /* font */
 
 .arial { font-family: Arial, sans-serif }
+.lato { font-family: Lato, Arial, sans-serif }
 .roboto { font-family: Roboto, Arial, sans-serif }
 .whitney { font-family: Whitney, Arial, sans-serif }
 .helvetica { font-family: Helvetica, Arial, sans-serif }
@@ -3974,6 +3975,7 @@ input[type=submit] {
 	/* font */
 
 	.tab-arial { font-family: Arial, sans-serif }
+	.tab-lato { font-family: Lato, Arial, sans-serif }
 	.tab-roboto { font-family: Roboto, Arial, sans-serif }
 	.tab-whitney { font-family: Whitney, Arial, sans-serif }
 	.tab-helvetica { font-family: Helvetica, Arial, sans-serif }
@@ -6288,6 +6290,7 @@ input[type=submit] {
 	/* font */
 
 	.mob-arial { font-family: Arial, sans-serif }
+	.mob-lato { font-family: Lato, Arial, sans-serif }
 	.mob-roboto { font-family: Roboto, Arial, sans-serif }
 	.mob-whitney { font-family: Whitney, Arial, sans-serif }
 	.mob-helvetica { font-family: Helvetica, Arial, sans-serif }
