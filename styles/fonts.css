@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.9
-	Date: 2019-01-14
+	Version: 0.3.0
+	Date: 2019-01-24
 	Author: temoffey <temofffey@gmail.com>
 	File: fonts.css
 */
@@ -221,6 +221,8 @@
 	src: url('../fonts/futura-pt/FuturaPT-HeavyObl.woff') format('woff');
 }
 
+.futura-pt { font-family: 'Futura PT', Arial, sans-serif }
+
 
 /* Helvetica */
 /* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/503-helvetica-neue-cyr.html */
@@ -285,7 +287,7 @@
 	font-style: italic;
 	font-weight: 500;
 	font-family: Helvetica;
-	src: url('../fonts/helvetica/HelveticaNeueCyr-MediumItaicl.woff') format('woff');
+	src: url('../fonts/helvetica/HelveticaNeueCyr-MediumItalic.woff') format('woff');
 }
 
 @font-face {
@@ -326,6 +328,8 @@
 	font-family: Helvetica;
 	src: url('../fonts/helvetica/HelveticaNeueCyr-BlackItalic.woff') format('woff');
 }
+
+.helvetica { font-family: Helvetica, Arial, sans-serif }
 
 
 /* Lato */
@@ -446,6 +450,8 @@
 	src: url('../fonts/lato/Lato-BlackItalic.woff') format('woff');
 }
 
+.lato { font-family: Lato, Arial, sans-serif }
+
 
 /* Montserrat */
 /* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/604-montserrat.html */
@@ -565,6 +571,8 @@
 	src: url('../fonts/montserrat/Montserrat-BlackItalic.woff') format('woff');
 }
 
+.montserrat { font-family: Montserrat, Arial, sans-serif }
+
 
 /* PF Agora Sans Pro */
 /* font get from site https://nomail.com.ua/font/Agora */
@@ -670,6 +678,8 @@
 	font-family: 'PF Agora Sans Pro';
 	src: url('../fonts/pf-agora-sans-pro/PFAgoraSansPro-UltraBlackItalic.woff') format('woff');
 }
+
+.pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
 
 
 /* PF Agora Slab Pro */
@@ -777,6 +787,8 @@
 	src: url('../fonts/pf-agora-slab-pro/PFAgoraSlabPro-UltraBlackItalic.woff') format('woff');
 }
 
+.pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
+
 
 /* PT Serif */
 /* font get from site https://webfonts.pro/base-web-fonts/serif/813-pt-serif.html */
@@ -805,6 +817,8 @@
 	src: url('../fonts/pt-serif/PTSerif-BoldItalic.woff') format('woff');
 }
 
+.pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
+
 
 /* Rex */
 
@@ -824,6 +838,8 @@
 	font-family: Rex;
 	src: url('../fonts/rex/Rex-Bold.woff') format('woff');
 }
+
+.rex { font-family: Rex, Menlo, Consolas, monospace }
 
 
 /* Roboto */
@@ -952,6 +968,8 @@
 	src: url('../fonts/roboto/Roboto-BlackItalic.woff') format('woff');
 }
 
+.roboto { font-family: Roboto, Arial, sans-serif }
+
 
 /* Whitney */
 /* font get from site https://webfonts.pro/base-web-fonts/sans-serif-grotesque/898-whitney.html */
@@ -1031,3 +1049,5 @@
 	font-family: Whitney;
 	src: url('../fonts/whitney/Whitney-BlackItalic.woff') format('woff');
 }
+
+.whitney { font-family: Whitney, Arial, sans-serif }

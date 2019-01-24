@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.2.9
-	Date: 2019-01-14
+	Version: 0.3.0
+	Date: 2019-01-24
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -21,6 +21,8 @@ a {
 	color: inherit;
 	text-decoration: inherit;
 }
+
+a img { border: none }
 
 button,
 textarea,
@@ -240,6 +242,11 @@ input[type=submit] {
 .z-index-1000 { z-index: 1000 }
 .z-index-5000 { z-index: 5000 }
 
+
+/* sizing */
+
+.border-box { box-sizing: border-box }
+.content-box { box-sizing: content-box }
 
 
 /* margin */
@@ -1664,19 +1671,7 @@ input[type=submit] {
 /* font */
 
 .arial { font-family: Arial, sans-serif }
-.lato { font-family: Lato, Arial, sans-serif }
-.roboto { font-family: Roboto, Arial, sans-serif }
-.whitney { font-family: Whitney, Arial, sans-serif }
-.helvetica { font-family: Helvetica, Arial, sans-serif }
-.futura-pt { font-family: 'Futura PT', Arial, sans-serif }
-.montserrat { font-family: Montserrat, Arial, sans-serif }
-.pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
-
 .times { font-family: 'Times New Roman', Times, serif }
-.pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
-.pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
-
-.rex { font-family: Rex, Menlo, Consolas, monospace }
 .monospace { font-family: Menlo, Consolas, monospace }
 
 
@@ -2321,8 +2316,13 @@ input[type=submit] {
 
 /* object */
 
-.fit-cover { object-fit: cover }
-.fit-contain { object-fit: contain }
+.object-cover { object-fit: cover }
+.object-contain { object-fit: contain }
+
+.object-top { object-position: top }
+.object-left { object-position: left }
+.object-right { object-position: right }
+.object-bottom { object-position: bottom }
 
 
 /* interactive */
@@ -2553,6 +2553,12 @@ input[type=submit] {
 	.tab-z-index-500 { z-index: 500 }
 	.tab-z-index-1000 { z-index: 1000 }
 	.tab-z-index-5000 { z-index: 5000 }
+
+
+	/* sizing */
+
+	.tab-border-box { box-sizing: border-box }
+	.tab-content-box { box-sizing: content-box }
 
 
 	/* margin */
@@ -3975,19 +3981,7 @@ input[type=submit] {
 	/* font */
 
 	.tab-arial { font-family: Arial, sans-serif }
-	.tab-lato { font-family: Lato, Arial, sans-serif }
-	.tab-roboto { font-family: Roboto, Arial, sans-serif }
-	.tab-whitney { font-family: Whitney, Arial, sans-serif }
-	.tab-helvetica { font-family: Helvetica, Arial, sans-serif }
-	.tab-futura-pt { font-family: 'Futura PT', Arial, sans-serif }
-	.tab-montserrat { font-family: Montserrat, Arial, sans-serif }
-	.tab-pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
-
 	.tab-times { font-family: 'Times New Roman', Times, serif }
-	.tab-pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
-	.tab-pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
-
-	.tab-rex { font-family: Rex, Menlo, Consolas, monospace }
 	.tab-monospace { font-family: Menlo, Consolas, monospace }
 
 
@@ -4633,8 +4627,13 @@ input[type=submit] {
 
 	/* object */
 
-	.tab-fit-cover { object-fit: cover }
-	.tab-fit-contain { object-fit: contain }
+	.tab-object-cover { object-fit: cover }
+	.tab-object-contain { object-fit: contain }
+
+	.tab-object-top { object-position: top }
+	.tab-object-left { object-position: left }
+	.tab-object-right { object-position: right }
+	.tab-object-bottom { object-position: bottom }
 
 
 	/* interactive */
@@ -4868,6 +4867,12 @@ input[type=submit] {
 	.mob-z-index-500 { z-index: 500 }
 	.mob-z-index-1000 { z-index: 1000 }
 	.mob-z-index-5000 { z-index: 5000 }
+
+
+	/* sizing */
+
+	.mob-border-box { box-sizing: border-box }
+	.mob-content-box { box-sizing: content-box }
 
 
 	/* margin */
@@ -6290,19 +6295,7 @@ input[type=submit] {
 	/* font */
 
 	.mob-arial { font-family: Arial, sans-serif }
-	.mob-lato { font-family: Lato, Arial, sans-serif }
-	.mob-roboto { font-family: Roboto, Arial, sans-serif }
-	.mob-whitney { font-family: Whitney, Arial, sans-serif }
-	.mob-helvetica { font-family: Helvetica, Arial, sans-serif }
-	.mob-futura-pt { font-family: 'Futura PT', Arial, sans-serif }
-	.mob-montserrat { font-family: Montserrat, Arial, sans-serif }
-	.mob-pf-agora-sans-pro { font-family: 'PF Agora Sans Pro', Arial, sans-serif }
-
 	.mob-times { font-family: 'Times New Roman', Times, serif }
-	.mob-pt-serif { font-family: 'PT Serif', 'Times New Roman', Times, serif }
-	.mob-pf-agora-slab-pro { font-family: 'PF Agora Slab Pro', Arial, sans-serif }
-
-	.mob-rex { font-family: Rex, Menlo, Consolas, monospace }
 	.mob-monospace { font-family: Menlo, Consolas, monospace }
 
 
@@ -6948,8 +6941,13 @@ input[type=submit] {
 
 	/* object */
 
-	.mob-fit-cover { object-fit: cover }
-	.mob-fit-contain { object-fit: contain }
+	.mob-object-cover { object-fit: cover }
+	.mob-object-contain { object-fit: contain }
+
+	.mob-object-top { object-position: top }
+	.mob-object-left { object-position: left }
+	.mob-object-right { object-position: right }
+	.mob-object-bottom { object-position: bottom }
 
 
 	/* interactive */
