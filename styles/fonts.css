@@ -2,7 +2,7 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.0
+	Version: 0.3.1
 	Date: 2019-01-24
 	Author: temoffey <temofffey@gmail.com>
 	File: fonts.css
@@ -330,6 +330,17 @@
 }
 
 .helvetica { font-family: Helvetica, Arial, sans-serif }
+
+
+/* Impact */
+/* font get from site https://webfonts.pro/header-fonts/125-impact.html */
+
+@font-face {
+	font-family: Impact;
+	src: url('../fonts/impact/Impact.woff') format('woff');
+}
+
+.impact { font-family: Impact, Arial, sans-serif }
 
 
 /* Lato */
