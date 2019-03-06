@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.0
-	Date: 2019-01-24
+	Version: 0.3.2
+	Date: 2019-03-06
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1542,11 +1542,12 @@ input[type=submit] {
 
 .flex-full.flex-between > *:first-child,
 .flex-full.flex-between-around > *:first-child,
-.flex-full.flex-between > *:first-last,
-.flex-full.flex-around-between > *:first-last {
+.flex-full.flex-between > *:last-child,
+.flex-full.flex-around-between > *:last-child {
 	flex-grow: 1;
 }
 
+.flex-full > .grow-0 { flex-grow: 0 }
 .flex-full > .grow-1 { flex-grow: 2 }
 .flex-full > .grow-2 { flex-grow: 4 }
 .flex-full > .grow-3 { flex-grow: 6 }
@@ -3853,11 +3854,12 @@ input[type=submit] {
 
 	.tab-flex-full.tab-flex-between > *:first-child,
 	.tab-flex-full.tab-flex-between-around > *:first-child,
-	.tab-flex-full.tab-flex-between > *:first-last,
-	.tab-flex-full.tab-flex-around-between > *:first-last {
+	.tab-flex-full.tab-flex-between > *:last-child,
+	.tab-flex-full.tab-flex-around-between > *:last-child {
 		flex-grow: 1;
 	}
 
+	.tab-flex-full > .tab-grow-0 { flex-grow: 0 }
 	.tab-flex-full > .tab-grow-1 { flex-grow: 2 }
 	.tab-flex-full > .tab-grow-2 { flex-grow: 4 }
 	.tab-flex-full > .tab-grow-3 { flex-grow: 6 }
@@ -6167,11 +6169,12 @@ input[type=submit] {
 
 	.mob-flex-full.mob-flex-between > *:first-child,
 	.mob-flex-full.mob-flex-between-around > *:first-child,
-	.mob-flex-full.mob-flex-between > *:first-last,
-	.mob-flex-full.mob-flex-around-between > *:first-last {
+	.mob-flex-full.mob-flex-between > *:last-child,
+	.mob-flex-full.mob-flex-around-between > *:last-child {
 		flex-grow: 1;
 	}
 
+	.mob-flex-full > .mob-grow-0 { flex-grow: 0 }
 	.mob-flex-full > .mob-grow-1 { flex-grow: 2 }
 	.mob-flex-full > .mob-grow-2 { flex-grow: 4 }
 	.mob-flex-full > .mob-grow-3 { flex-grow: 6 }

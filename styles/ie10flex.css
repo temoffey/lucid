@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.0
-	Date: 2019-01-24
+	Version: 0.3.2
+	Date: 2019-03-06
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -151,11 +151,12 @@
 
 .flex-full.flex-between > *:first-child,
 .flex-full.flex-between-around > *:first-child,
-.flex-full.flex-between > *:first-last,
-.flex-full.flex-around-between > *:first-last {
+.flex-full.flex-between > *:last-child,
+.flex-full.flex-around-between > *:last-child {
 	-ms-flex-positive: 1;
 }
 
+.flex-full > .grow-0 { -ms-flex-positive: 0 }
 .flex-full > .grow-1 { -ms-flex-positive: 2 }
 .flex-full > .grow-2 { -ms-flex-positive: 4 }
 .flex-full > .grow-3 { -ms-flex-positive: 6 }
@@ -314,6 +315,7 @@
 		-ms-flex-positive: 1;
 	}
 
+	.tab-flex-full > .tab-grow-0 { -ms-flex-positive: 0 }
 	.tab-flex-full > .tab-grow-1 { -ms-flex-positive: 2 }
 	.tab-flex-full > .tab-grow-2 { -ms-flex-positive: 4 }
 	.tab-flex-full > .tab-grow-3 { -ms-flex-positive: 6 }
@@ -474,6 +476,7 @@
 		-ms-flex-positive: 1;
 	}
 
+	.mob-flex-full > .mob-grow-0 { -ms-flex-positive: 0 }
 	.mob-flex-full > .mob-grow-1 { -ms-flex-positive: 2 }
 	.mob-flex-full > .mob-grow-2 { -ms-flex-positive: 4 }
 	.mob-flex-full > .mob-grow-3 { -ms-flex-positive: 6 }
