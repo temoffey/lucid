@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.2
-	Date: 2019-03-06
+	Version: 0.3.2.1
+	Date: 2019-03-07
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -371,7 +371,7 @@ input[type=submit] {
 .margin-25-40 { margin: 25px 40px }
 .margin-25-50 { margin: 25px 50px }
 .margin-25-100 { margin: 25px 100px }
-.margin-25-auto { margin: 25px 100px }
+.margin-25-auto { margin: 25px auto }
 
 .margin-30 { margin: 30px }
 .margin-30-0 { margin: 30px 0 }
@@ -383,7 +383,7 @@ input[type=submit] {
 .margin-30-40 { margin: 30px 40px }
 .margin-30-50 { margin: 30px 50px }
 .margin-30-100 { margin: 30px 100px }
-.margin-30-auto { margin: 30px 100px }
+.margin-30-auto { margin: 30px auto }
 
 .margin-40 { margin: 40px }
 .margin-40-0 { margin: 40px 0 }
@@ -2684,7 +2684,7 @@ input[type=submit] {
 	.tab-margin-25-40 { margin: 25px 40px }
 	.tab-margin-25-50 { margin: 25px 50px }
 	.tab-margin-25-100 { margin: 25px 100px }
-	.tab-margin-25-auto { margin: 25px 100px }
+	.tab-margin-25-auto { margin: 25px auto }
 
 	.tab-margin-30 { margin: 30px }
 	.tab-margin-30-0 { margin: 30px 0 }
@@ -2696,7 +2696,7 @@ input[type=submit] {
 	.tab-margin-30-40 { margin: 30px 40px }
 	.tab-margin-30-50 { margin: 30px 50px }
 	.tab-margin-30-100 { margin: 30px 100px }
-	.tab-margin-30-auto { margin: 30px 100px }
+	.tab-margin-30-auto { margin: 30px auto }
 
 	.tab-margin-40 { margin: 40px }
 	.tab-margin-40-0 { margin: 40px 0 }
@@ -4999,7 +4999,7 @@ input[type=submit] {
 	.mob-margin-25-40 { margin: 25px 40px }
 	.mob-margin-25-50 { margin: 25px 50px }
 	.mob-margin-25-100 { margin: 25px 100px }
-	.mob-margin-25-auto { margin: 25px 100px }
+	.mob-margin-25-auto { margin: 25px auto }
 
 	.mob-margin-30 { margin: 30px }
 	.mob-margin-30-0 { margin: 30px 0 }
@@ -5011,7 +5011,7 @@ input[type=submit] {
 	.mob-margin-30-40 { margin: 30px 40px }
 	.mob-margin-30-50 { margin: 30px 50px }
 	.mob-margin-30-100 { margin: 30px 100px }
-	.mob-margin-30-auto { margin: 30px 100px }
+	.mob-margin-30-auto { margin: 30px auto }
 
 	.mob-margin-40 { margin: 40px }
 	.mob-margin-40-0 { margin: 40px 0 }
