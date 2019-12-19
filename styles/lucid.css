@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.2.1
-	Date: 2019-03-07
+	Version: 0.3.3
+	Date: 2019-12-19
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1636,11 +1636,12 @@ input[type=submit] {
 .italic { font-style: italic }
 .oblique { font-style: italic }
 
+.hairline { font-weight: 100 }
 .thin { font-weight: 100 }
 .extra-light { font-weight: 200 }
 .ultra-light { font-weight: 200 }
 .light { font-weight: 300 }
-.book { font-weight: 300 }
+.book { font-weight: 400 }
 .regular { font-weight: 400 }
 .medium { font-weight: 500 }
 .semi-bold { font-weight: 600 }
@@ -3947,11 +3948,12 @@ input[type=submit] {
 	.tab-italic { font-style: italic }
 	.tab-oblique { font-style: italic }
 
+	.tab-hairline { font-weight: 100 }
 	.tab-thin { font-weight: 100 }
 	.tab-extra-light { font-weight: 200 }
 	.tab-ultra-light { font-weight: 200 }
 	.tab-light { font-weight: 300 }
-	.tab-book { font-weight: 300 }
+	.tab-book { font-weight: 400 }
 	.tab-regular { font-weight: 400 }
 	.tab-medium { font-weight: 500 }
 	.tab-semi-bold { font-weight: 600 }
@@ -6262,11 +6264,12 @@ input[type=submit] {
 	.mob-italic { font-style: italic }
 	.mob-oblique { font-style: italic }
 
+	.mob-hairline { font-weight: 100 }
 	.mob-thin { font-weight: 100 }
 	.mob-extra-light { font-weight: 200 }
 	.mob-ultra-light { font-weight: 200 }
 	.mob-light { font-weight: 300 }
-	.mob-book { font-weight: 300 }
+	.mob-book { font-weight: 400 }
 	.mob-regular { font-weight: 400 }
 	.mob-medium { font-weight: 500 }
 	.mob-semi-bold { font-weight: 600 }
