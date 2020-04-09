@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.3
-	Date: 2019-12-19
+	Version: 0.3.4
+	Date: 2020-04-09
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -1941,6 +1941,22 @@ input[type=submit] {
 .size-148 { font-size: 148px }
 .size-149 { font-size: 149px }
 .size-150 { font-size: 150px }
+
+.size-1vw { font-size: 1vw }
+.size-2vw { font-size: 2vw }
+.size-3vw { font-size: 3vw }
+.size-4vw { font-size: 4vw }
+.size-5vw { font-size: 5vw }
+.size-6vw { font-size: 6vw }
+.size-7vw { font-size: 7vw }
+.size-8vw { font-size: 8vw }
+.size-9vw { font-size: 9vw }
+.size-10vw { font-size: 10vw }
+.size-11vw { font-size: 11vw }
+.size-12vw { font-size: 12vw }
+.size-13vw { font-size: 13vw }
+.size-14vw { font-size: 14vw }
+.size-15vw { font-size: 15vw }
 
 
 /* list */
@@ -4253,6 +4269,22 @@ input[type=submit] {
 	.tab-size-148 { font-size: 148px }
 	.tab-size-149 { font-size: 149px }
 	.tab-size-150 { font-size: 150px }
+
+	.tab-size-1vw { font-size: 1vw }
+	.tab-size-2vw { font-size: 2vw }
+	.tab-size-3vw { font-size: 3vw }
+	.tab-size-4vw { font-size: 4vw }
+	.tab-size-5vw { font-size: 5vw }
+	.tab-size-6vw { font-size: 6vw }
+	.tab-size-7vw { font-size: 7vw }
+	.tab-size-8vw { font-size: 8vw }
+	.tab-size-9vw { font-size: 9vw }
+	.tab-size-10vw { font-size: 10vw }
+	.tab-size-11vw { font-size: 11vw }
+	.tab-size-12vw { font-size: 12vw }
+	.tab-size-13vw { font-size: 13vw }
+	.tab-size-14vw { font-size: 14vw }
+	.tab-size-15vw { font-size: 15vw }
 
 
 	/* list */
@@ -6569,6 +6601,22 @@ input[type=submit] {
 	.mob-size-148 { font-size: 148px }
 	.mob-size-149 { font-size: 149px }
 	.mob-size-150 { font-size: 150px }
+
+	.mob-size-1vw { font-size: 1vw }
+	.mob-size-2vw { font-size: 2vw }
+	.mob-size-3vw { font-size: 3vw }
+	.mob-size-4vw { font-size: 4vw }
+	.mob-size-5vw { font-size: 5vw }
+	.mob-size-6vw { font-size: 6vw }
+	.mob-size-7vw { font-size: 7vw }
+	.mob-size-8vw { font-size: 8vw }
+	.mob-size-9vw { font-size: 9vw }
+	.mob-size-10vw { font-size: 10vw }
+	.mob-size-11vw { font-size: 11vw }
+	.mob-size-12vw { font-size: 12vw }
+	.mob-size-13vw { font-size: 13vw }
+	.mob-size-14vw { font-size: 14vw }
+	.mob-size-15vw { font-size: 15vw }
 
 
 	/* list */
