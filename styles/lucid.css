@@ -2,8 +2,8 @@
 
 /*
 	lucid CSS Framework
-	Version: 0.3.4
-	Date: 2020-04-09
+	Version: 0.4.0
+	Date: 2020-09-17
 	Author: temoffey <temofffey@gmail.com>
 	File: lucid.css
 */
@@ -14,7 +14,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	-webkit-overflow-scrolling: touch;
 }
 
 a {
@@ -23,19 +22,6 @@ a {
 }
 
 a img { border: none }
-
-button,
-textarea,
-input[type=tel],
-input[type=text],
-input[type=email],
-input[type=search],
-input[type=password],
-input[type=reset],
-input[type=button],
-input[type=submit] {
-	-webkit-appearance: none;
-}
 
 
 /* display */
@@ -1401,6 +1387,8 @@ input[type=submit] {
 /* flex */
 
 .flex { display: flex }
+.inline-flex { display: inline-flex }
+
 .flex-row { flex-direction: row }
 .flex-direct { flex-direction: row }
 .flex-column { flex-direction: column }
@@ -1713,6 +1701,9 @@ input[type=submit] {
 
 .ellipsis { text-overflow: ellipsis }
 
+.auto { overflow: auto }
+.auto-x { overflow-x: auto }
+.auto-y { overflow-y: auto }
 .crop { overflow: hidden }
 .crop-x { overflow-x: hidden }
 .crop-y { overflow-y: hidden }
@@ -1957,6 +1948,11 @@ input[type=submit] {
 .size-13vw { font-size: 13vw }
 .size-14vw { font-size: 14vw }
 .size-15vw { font-size: 15vw }
+.size-16vw { font-size: 16vw }
+.size-17vw { font-size: 17vw }
+.size-18vw { font-size: 18vw }
+.size-19vw { font-size: 19vw }
+.size-20vw { font-size: 20vw }
 
 
 /* list */
@@ -2036,11 +2032,11 @@ input[type=submit] {
 .bg-pos-100\%-0 { background-position: 100% 0 }
 .bg-pos-100\%-50\% { background-position: 100% 50% }
 
-.bg-pos-top { background-position: top }
-.bg-pos-left { background-position: left }
-.bg-pos-right { background-position: right }
-.bg-pos-bottom { background-position: bottom }
-.bg-pos-center { background-position: center }
+.bg-top { background-position: top }
+.bg-left { background-position: left }
+.bg-right { background-position: right }
+.bg-bottom { background-position: bottom }
+.bg-center { background-position: center }
 
 .bg-repeat { background-repeat: repeat }
 .bg-repeat-x { background-repeat: repeat-x }
@@ -2177,6 +2173,14 @@ input[type=submit] {
 .navy { color: navy }
 
 
+/* placeholder-color */
+
+.placeholder-black::placeholder { color: black }
+.placeholder-gray::placeholder { color: gray }
+.placeholder-silver::placeholder { color: silver }
+.placeholder-white::placeholder { color: white }
+
+
 /* bg-color */
 
 .bg-black { background-color: black }
@@ -2270,6 +2274,8 @@ input[type=submit] {
 
 /* animate */
 
+.fill-mode-both { animation-fill-mode: both }
+
 .property-all { transition-property: all }
 .property-color { transition-property: color }
 .property-bg { transition-property: background }
@@ -2279,14 +2285,14 @@ input[type=submit] {
 
 .duration-0\.5 { animation-duration: 0.5s; transition-duration: 0.5s }
 .duration-1 { animation-duration: 1s; transition-duration: 1s }
-.duration-0\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
-.duration-1 { animation-duration: 2s; transition-duration: 2s }
-.duration-0\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
-.duration-1 { animation-duration: 3s; transition-duration: 3s }
-.duration-0\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
-.duration-1 { animation-duration: 4s; transition-duration: 4s }
-.duration-0\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
-.duration-1 { animation-duration: 5s; transition-duration: 5s }
+.duration-1\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
+.duration-2 { animation-duration: 2s; transition-duration: 2s }
+.duration-2\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
+.duration-3 { animation-duration: 3s; transition-duration: 3s }
+.duration-3\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
+.duration-4 { animation-duration: 4s; transition-duration: 4s }
+.duration-4\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
+.duration-5 { animation-duration: 5s; transition-duration: 5s }
 
 .delay-0 { animation-delay: 0; transition-delay: 0 }
 .delay-0\.5 { animation-delay: 0.5s; transition-delay: 0.5s }
@@ -2305,6 +2311,7 @@ input[type=submit] {
 .transition-all-0\.5-linear { transition: all 0.5s linear }
 .transition-all-1-linear { transition: all 1s linear }
 
+.fade-in { animation-name: fade-in }
 
 /* transform */
 
@@ -2318,8 +2325,8 @@ input[type=submit] {
 	transform: rotate(-90deg) translate(-100%);
 }
 
-.hover-scale-0\.1:hover { transform: scale(1.1) }
-.hover-scale-0\.01:hover { transform: scale(1.01) }
+.hover-scale-1\.1:hover { transform: scale(1.1) }
+.hover-scale-1\.01:hover { transform: scale(1.01) }
 
 
 /* cursor */
@@ -2345,21 +2352,28 @@ input[type=submit] {
 
 /* interactive */
 
+.touch { -webkit-overflow-scrolling: touch }
+
+.no-appearance, .appearance-none { -webkit-appearance: none }
+
+.no-drag, .drag-none {
+	user-drag: none;
+	-webkit-user-drag: none;
+}
+
+.no-select, .select-none {
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
 .no-scrollbar, .scrollbar-none {
 	-ms-overflow-style: none;
 	overflow: -moz-scrollbars-none;
 }
 
 .no-scrollbar::-webkit-scrollbar, .scrollbar-none::-webkit-scrollbar { display: none }
-
-.no-drag, .no-drag *, .drag-none, .drag-none * {
-	user-drag: none;
-	user-select: none;
-	-ms-user-select: none;
-	-moz-user-select: none;
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-}
 
 .no-recaptcha .grecaptcha-badge, .recaptcha-none .grecaptcha-badge { display: none }
 
@@ -3731,6 +3745,8 @@ input[type=submit] {
 	/* flex */
 
 	.tab-flex { display: flex }
+	.tab-inline-flex { display: inline-flex }
+
 	.tab-flex-row { flex-direction: row }
 	.tab-flex-direct { flex-direction: row }
 	.tab-flex-column { flex-direction: column }
@@ -4041,9 +4057,9 @@ input[type=submit] {
 
 	.tab-ellipsis { text-overflow: ellipsis }
 
-	.tab-crop { overflow: hidden }
-	.tab-crop-x { overflow-x: hidden }
-	.tab-crop-y { overflow-y: hidden }
+	.tab-auto { overflow: auto }
+	.tab-auto-x { overflow-x: auto }
+	.tab-auto-y { overflow-y: auto }
 	.tab-scroll { overflow: scroll }
 	.tab-scroll-x { overflow-x: scroll }
 	.tab-scroll-y { overflow-y: scroll }
@@ -4285,6 +4301,11 @@ input[type=submit] {
 	.tab-size-13vw { font-size: 13vw }
 	.tab-size-14vw { font-size: 14vw }
 	.tab-size-15vw { font-size: 15vw }
+	.tab-size-16vw { font-size: 16vw }
+	.tab-size-17vw { font-size: 17vw }
+	.tab-size-18vw { font-size: 18vw }
+	.tab-size-19vw { font-size: 19vw }
+	.tab-size-20vw { font-size: 20vw }
 
 
 	/* list */
@@ -4364,11 +4385,11 @@ input[type=submit] {
 	.tab-bg-pos-100\%-0 { background-position: 100% 0 }
 	.tab-bg-pos-100\%-50\% { background-position: 100% 50% }
 
-	.tab-bg-pos-top { background-position: top }
-	.tab-bg-pos-left { background-position: left }
-	.tab-bg-pos-right { background-position: right }
-	.tab-bg-pos-bottom { background-position: bottom }
-	.tab-bg-pos-center { background-position: center }
+	.tab-bg-top { background-position: top }
+	.tab-bg-left { background-position: left }
+	.tab-bg-right { background-position: right }
+	.tab-bg-bottom { background-position: bottom }
+	.tab-bg-center { background-position: center }
 
 	.tab-bg-repeat { background-repeat: repeat }
 	.tab-bg-repeat-x { background-repeat: repeat-x }
@@ -4506,6 +4527,14 @@ input[type=submit] {
 	.tab-navy { color: navy }
 
 
+	/* placeholder-color */
+
+	.tab-placeholder-black::placeholder { color: black }
+	.tab-placeholder-gray::placeholder { color: gray }
+	.tab-placeholder-silver::placeholder { color: silver }
+	.tab-placeholder-white::placeholder { color: white }
+
+
 	/* bg-color */
 
 	.tab-bg-black { background-color: black }
@@ -4599,6 +4628,8 @@ input[type=submit] {
 
 	/* animate */
 
+	.tab-fill-mode-both { animation-fill-mode: both }
+
 	.tab-property-all { transition-property: all }
 	.tab-property-color { transition-property: color }
 	.tab-property-bg { transition-property: background }
@@ -4608,14 +4639,14 @@ input[type=submit] {
 
 	.tab-duration-0\.5 { animation-duration: 0.5s; transition-duration: 0.5s }
 	.tab-duration-1 { animation-duration: 1s; transition-duration: 1s }
-	.tab-duration-0\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
-	.tab-duration-1 { animation-duration: 2s; transition-duration: 2s }
-	.tab-duration-0\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
-	.tab-duration-1 { animation-duration: 3s; transition-duration: 3s }
-	.tab-duration-0\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
-	.tab-duration-1 { animation-duration: 4s; transition-duration: 4s }
-	.tab-duration-0\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
-	.tab-duration-1 { animation-duration: 5s; transition-duration: 5s }
+	.tab-duration-1\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
+	.tab-duration-2 { animation-duration: 2s; transition-duration: 2s }
+	.tab-duration-2\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
+	.tab-duration-3 { animation-duration: 3s; transition-duration: 3s }
+	.tab-duration-3\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
+	.tab-duration-4 { animation-duration: 4s; transition-duration: 4s }
+	.tab-duration-4\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
+	.tab-duration-5 { animation-duration: 5s; transition-duration: 5s }
 
 	.tab-delay-0 { animation-delay: 0; transition-delay: 0 }
 	.tab-delay-0\.5 { animation-delay: 0.5s; transition-delay: 0.5s }
@@ -4634,6 +4665,8 @@ input[type=submit] {
 	.tab-transition-all-0\.5-linear { transition-property: all 0.5s linear }
 	.tab-transition-all-1-linear { transition-property: all 1s linear }
 
+	.tab-fade-in { animation-name: fade-in }
+
 
 	/* transform */
 
@@ -4647,8 +4680,8 @@ input[type=submit] {
 		transform: rotate(-90deg) translate(-100%);
 	}
 
-	.tab-hover-scale-0\.1:hover { transform: scale(1.1) }
-	.tab-hover-scale-0\.01:hover { transform: scale(1.01) }
+	.tab-hover-scale-1\.1:hover { transform: scale(1.1) }
+	.tab-hover-scale-1\.01:hover { transform: scale(1.01) }
 
 
 	/* cursor */
@@ -4674,22 +4707,28 @@ input[type=submit] {
 
 	/* interactive */
 
+	.tab-touch { -webkit-overflow-scrolling: touch }
+
+	.tab-no-appearance, .tab-appearance-none { -webkit-appearance: none }
+
+	.tab-no-drag, .tab-drag-none {
+		user-drag: none;
+		-webkit-user-drag: none;
+	}
+
+	.tab-no-select, .tab-select-none {
+		user-select: none;
+		-ms-user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+	}
+
 	.tab-no-scrollbar, .tab-scrollbar-none {
 		-ms-overflow-style: none;
 		overflow: -moz-scrollbars-none;
 	}
 
 	.tab-no-scrollbar::-webkit-scrollbar, .tab-scrollbar-none::-webkit-scrollbar { display: none }
-
-	.tab-no-drag, .tab-drag-none,
-	.tab-no-drag *, .tab-drag-none * {
-		user-drag: none;
-		user-select: none;
-		-ms-user-select: none;
-		-moz-user-select: none;
-		-webkit-user-drag: none;
-		-webkit-user-select: none;
-	}
 
 	.tab-no-recaptcha .grecaptcha-badge, .tab-recaptcha-none .grecaptcha-badge { display: none }
 
@@ -6063,6 +6102,8 @@ input[type=submit] {
 	/* flex */
 
 	.mob-flex { display: flex }
+	.mob-inline-flex { display: inline-flex }
+
 	.mob-flex-row { flex-direction: row }
 	.mob-flex-direct { flex-direction: row }
 	.mob-flex-column { flex-direction: column }
@@ -6373,6 +6414,9 @@ input[type=submit] {
 
 	.mob-ellipsis { text-overflow: ellipsis }
 
+	.mob-auto { overflow: auto }
+	.mob-auto-x { overflow-x: auto }
+	.mob-auto-y { overflow-y: auto }
 	.mob-crop { overflow: hidden }
 	.mob-crop-x { overflow-x: hidden }
 	.mob-crop-y { overflow-y: hidden }
@@ -6617,6 +6661,11 @@ input[type=submit] {
 	.mob-size-13vw { font-size: 13vw }
 	.mob-size-14vw { font-size: 14vw }
 	.mob-size-15vw { font-size: 15vw }
+	.mob-size-16vw { font-size: 16vw }
+	.mob-size-17vw { font-size: 17vw }
+	.mob-size-18vw { font-size: 18vw }
+	.mob-size-19vw { font-size: 19vw }
+	.mob-size-20vw { font-size: 20vw }
 
 
 	/* list */
@@ -6696,11 +6745,11 @@ input[type=submit] {
 	.mob-bg-pos-100\%-0 { background-position: 100% 0 }
 	.mob-bg-pos-100\%-50\% { background-position: 100% 50% }
 
-	.mob-bg-pos-top { background-position: top }
-	.mob-bg-pos-left { background-position: left }
-	.mob-bg-pos-right { background-position: right }
-	.mob-bg-pos-bottom { background-position: bottom }
-	.mob-bg-pos-center { background-position: center }
+	.mob-bg-top { background-position: top }
+	.mob-bg-left { background-position: left }
+	.mob-bg-right { background-position: right }
+	.mob-bg-bottom { background-position: bottom }
+	.mob-bg-center { background-position: center }
 
 	.mob-bg-repeat { background-repeat: repeat }
 	.mob-bg-repeat-x { background-repeat: repeat-x }
@@ -6838,6 +6887,14 @@ input[type=submit] {
 	.mob-navy { color: navy }
 
 
+	/* placeholder-color */
+
+	.mob-placeholder-black::placeholder { color: black }
+	.mob-placeholder-gray::placeholder { color: gray }
+	.mob-placeholder-silver::placeholder { color: silver }
+	.mob-placeholder-white::placeholder { color: white }
+
+
 	/* bg-color */
 
 	.mob-bg-black { background-color: black }
@@ -6931,6 +6988,8 @@ input[type=submit] {
 
 	/* animate */
 
+	.mob-fill-mode-both { animation-fill-mode: both }
+
 	.mob-property-all { transition-property: all }
 	.mob-property-color { transition-property: color }
 	.mob-property-bg { transition-property: background }
@@ -6940,14 +6999,14 @@ input[type=submit] {
 
 	.mob-duration-0\.5 { animation-duration: 0.5s; transition-duration: 0.5s }
 	.mob-duration-1 { animation-duration: 1s; transition-duration: 1s }
-	.mob-duration-0\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
-	.mob-duration-1 { animation-duration: 2s; transition-duration: 2s }
-	.mob-duration-0\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
-	.mob-duration-1 { animation-duration: 3s; transition-duration: 3s }
-	.mob-duration-0\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
-	.mob-duration-1 { animation-duration: 4s; transition-duration: 4s }
-	.mob-duration-0\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
-	.mob-duration-1 { animation-duration: 5s; transition-duration: 5s }
+	.mob-duration-1\.5 { animation-duration: 1.5s; transition-duration: 1.5s }
+	.mob-duration-2 { animation-duration: 2s; transition-duration: 2s }
+	.mob-duration-2\.5 { animation-duration: 2.5s; transition-duration: 2.5s }
+	.mob-duration-3 { animation-duration: 3s; transition-duration: 3s }
+	.mob-duration-3\.5 { animation-duration: 3.5s; transition-duration: 3.5s }
+	.mob-duration-4 { animation-duration: 4s; transition-duration: 4s }
+	.mob-duration-4\.5 { animation-duration: 4.5s; transition-duration: 4.5s }
+	.mob-duration-5 { animation-duration: 5s; transition-duration: 5s }
 
 	.mob-delay-0 { animation-delay: 0; transition-delay: 0 }
 	.mob-delay-0\.5 { animation-delay: 0.5s; transition-delay: 0.5s }
@@ -6966,6 +7025,8 @@ input[type=submit] {
 	.mob-transition-all-0\.5-linear { transition-property: all 0.5s linear }
 	.mob-transition-all-1-linear { transition-property: all 1s linear }
 
+	.mob-fade-in { animation-name: fade-in }
+
 
 	/* transform */
 
@@ -6979,8 +7040,8 @@ input[type=submit] {
 		transform: rotate(-90deg) translate(-100%);
 	}
 
-	.mob-hover-scale-0\.1:hover { transform: scale(1.1) }
-	.mob-hover-scale-0\.01:hover { transform: scale(1.01) }
+	.mob-hover-scale-1\.1:hover { transform: scale(1.1) }
+	.mob-hover-scale-1\.01:hover { transform: scale(1.01) }
 
 
 	/* cursor */
@@ -7006,6 +7067,22 @@ input[type=submit] {
 
 	/* interactive */
 
+	.mob-touch { -webkit-overflow-scrolling: touch }
+
+	.mob-no-appearance, .mob-appearance-none { -webkit-appearance: none }
+
+	.mob-no-drag, .mob-drag-none {
+		user-drag: none;
+		-webkit-user-drag: none;
+	}
+
+	.mob-no-select, .mob-select-none {
+		user-select: none;
+		-ms-user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+	}
+
 	.mob-no-scrollbar, .mob-scrollbar-none {
 		-ms-overflow-style: none;
 		overflow: -moz-scrollbars-none;
@@ -7013,16 +7090,34 @@ input[type=submit] {
 
 	.mob-no-scrollbar::-webkit-scrollbar, .mob-scrollbar-none::-webkit-scrollbar { display: none }
 
-	.mob-no-drag, .mob-drag-none,
-	.mob-no-drag *, .mob-drag-none * {
-		user-drag: none;
-		user-select: none;
-		-ms-user-select: none;
-		-moz-user-select: none;
-		-webkit-user-drag: none;
-		-webkit-user-select: none;
-	}
-
 	.mob-no-recaptcha .grecaptcha-badge, .mob-recaptcha-none .grecaptcha-badge { display: none }
 
 }
+
+
+/* animations */
+
+@keyframes fade-in {
+	from { opacity: 0 }
+	to { opacity: 1 }
+}
+
+
+/* languages */
+
+html[lang|="en"] .en-block { display: block }
+html[lang|="kk"] .kk-block { display: block }
+html[lang|="ru"] .ru-block { display: block }
+
+html[lang|="en"] .en-none { display: none }
+html[lang|="kk"] .kk-none { display: none }
+html[lang|="ru"] .ru-none { display: none }
+
+
+/* devices */
+
+html[device*="android"] .android-block { display: block }
+html[device*="ios"] .ios-block { display: block }
+
+html[device*="android"] .android-none { display: none }
+html[device*="ios"] .ios-none { display: none }
